@@ -1,0 +1,5 @@
+dist/
+.cache/
+todo.tsv
+__pycache__/
+*.pyc

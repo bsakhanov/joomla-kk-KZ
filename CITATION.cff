@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this language pack, please cite it as below."
+title: "Joomla 6 Kazakh language pack (kk-KZ)"
+type: software
+authors:
+  - family-names: Sakhanov
+    given-names: Beibit
+version: "6.1.4.2"
+date-released: "2026-10-13"
+license: GPL-2.0-or-later
+repository-code: "https://github.com/bsakhanov/joomla-kk-KZ"
+url: "https://bsakhanov.github.io/joomla-kk-KZ/"
+abstract: "Kazakh (kk-KZ) language pack for Joomla 6: administrator, site, Web Services API and installer, with a glossary and tools for keeping it in step with Joomla releases."
+keywords:
+  - Joomla
+  - Joomla 6
+  - Kazakh
+  - language pack
+  - localisation
+references:
+  - type: software
+    title: "Russian localisation of Joomla (ru-RU)"
+    authors:
+      - name: "JPathRu"
+    url: "https://github.com/JPathRu/localisation"

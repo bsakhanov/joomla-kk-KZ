@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" method="upgrade">
+	<name>Kazakh (kk-KZ) Language Pack</name>
+	<packagename>kk-KZ</packagename>
+	<version>6.1.4.2</version>
+	<creationDate>2026-10</creationDate>
+	<author>Webmarka · Beibit Sakhanov (на основе русского пакета JPath)</author>
+	<authorEmail>support@webmarka.kz</authorEmail>
+	<authorUrl>https://webmarka.kz</authorUrl>
+	<copyright>Copyright (C) 2005 - 2026 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<url>https://github.com/joomla/joomla-cms</url>
+	<packager>Joomla! Project</packager>
+	<packagerurl>https://joomla.org</packagerurl>
+	<description><![CDATA[<h3 style='font-weight: 400'>Joomla 6.1.4 — қазақ тілінің пакеті (kk-KZ)</h3><p>Қазақ тілінің толық пакеті: басқару панелі, сайт және API. Орыс тілінің JPath пакеті (6.1.4.1) негізінде жасалды; барлық жолдар қазақ тіліне аударылған. Аударма ана тілін меңгерген маманның тексеруінен әлі өтпеген.</p><p>Complete Kazakh language pack: administrator, site and API. Based on the JPath Russian pack (6.1.4.1); all strings are translated. Not yet proofread by a native speaker.</p><p>Полный казахский языковой пакет: админка, сайт и API. Основа — русский пакет JPath (6.1.4.1); переведены все строки. Перевод не вычитан носителем языка.</p>]]></description>
+	<blockChildUninstall>true</blockChildUninstall>
+	<files>
+		<folder type="language" client="administrator" id="kk-KZ">administrator/language/kk-KZ</folder>
+		<folder type="language" client="api" id="kk-KZ">api/language/kk-KZ</folder>
+		<folder type="language" client="site" id="kk-KZ">language/kk-KZ</folder>
+	</files>
+</extension>

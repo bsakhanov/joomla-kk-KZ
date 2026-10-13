@@ -1,0 +1,3 @@
+* text=auto eol=lf
+*.ini text eol=lf
+*.xml text eol=lf

@@ -1,0 +1,30 @@
+name: Translation error · Ошибка перевода · Аударма қатесі
+description: A wrong, unclear or missing Kazakh string
+labels: ["translation"]
+body:
+  - type: input
+    id: key
+    attributes:
+      label: Language key · Ключ · Кілт
+      placeholder: COM_CONTENT_ARTICLE_CONTENT
+    validations:
+      required: true
+  - type: input
+    id: file
+    attributes:
+      label: File · Файл · Файл
+      placeholder: administrator/language/kk-KZ/com_content.ini
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text · Текущий текст · Қазіргі мәтін
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed text · Предложение · Ұсыныс
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (screen, screenshot) · Контекст · Контекст
