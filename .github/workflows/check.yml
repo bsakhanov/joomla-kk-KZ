@@ -1,0 +1,30 @@
+name: Check the pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "administrator/**"
+      - "api/**"
+      - "language/**"
+      - "installation/**"
+      - "pkg_kk-KZ.xml"
+      - "tools/**"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the Joomla originals
+        run: |
+          V=$(python3 -c "import re;print(re.search(r'<version>(\d+\.\d+\.\d+)', open('pkg_kk-KZ.xml').read()).group(1))")
+          python3 tools/kkpack.py fetch "$V"
+          echo "JOOMLA_EN=.cache/joomla-$V" >> "$GITHUB_ENV"
+      - name: Check
+        run: python3 tools/kkpack.py check --en "$JOOMLA_EN"
