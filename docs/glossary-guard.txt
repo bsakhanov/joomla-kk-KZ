@@ -5,7 +5,7 @@
 [Үү]лгі           # template: the pack says «шаблон»
 [Бб]үркеншік      # alias: the pack says «алиас»
 [Мм]әнер          # style: the pack says «стиль»
-құрамдас бөлік    # component: the pack says «компонент»
+[Ққ]ұрамдас бөлік    # component: the pack says «компонент»
 [Мм]атериал       # article: the pack says «мақала»
 [Тт]орап          # website: the pack says «сайт»
 [Дд]еректер базасы  # database: the pack says «дерекқор»

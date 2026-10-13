@@ -3,32 +3,34 @@
 **English** · [Русский](README.ru.md) · [Қазақша](README.kk.md)
 
 [![License: GPL-2.0-or-later](https://img.shields.io/badge/license-GPL--2.0--or--later-blue.svg)](LICENSE)
-[![Joomla 6.1.4](https://img.shields.io/badge/Joomla-6.1.4-1b5e84.svg)](https://github.com/joomla/joomla-cms/releases/tag/6.1.4)
+[![Joomla 6.2.0](https://img.shields.io/badge/Joomla-6.2.0-1b5e84.svg)](https://github.com/joomla/joomla-cms/releases/tag/6.2.0)
 [![Release](https://img.shields.io/github/v/release/bsakhanov/joomla-kk-KZ?color=blue)](https://github.com/bsakhanov/joomla-kk-KZ/releases)
 
 > The Kazakh text was translated with AI assistance and **has not yet been proofread by a native speaker**. Corrections are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 An open-source Kazakh (kk-KZ) language pack for Joomla 6 and later: administrator, site, Web Services API and the installer. The repository is laid out like the Russian pack repository [JPathRu/localisation](https://github.com/JPathRu/localisation): the repository root is the package root, one release per Joomla version, terminology lives in a [glossary](GLOSSARY.md), mistakes are reported as issues.
 
-**Page:** https://bsakhanov.github.io/joomla-kk-KZ/ · **Release:** https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/6.1.4.4
+**Page:** https://bsakhanov.github.io/joomla-kk-KZ/ · **Release:** https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/6.2.0.1
 
 ## Status
 
 | | |
 | --- | --- |
-| Joomla version | 6.1.4 (6.2 follows after its stable release) |
-| Pack version | 6.1.4.4: the Joomla version plus the translation revision |
-| Strings | 13,691 in 537 files; every key of Joomla 6.1.4 has a Kazakh value |
-| Left in English on purpose | 153 distinct strings: template position names, protocol and product names ([list](docs/keep-english.txt)) |
+| Joomla version | 6.2.0 |
+| Pack version | 6.2.0.1: the Joomla version plus the translation revision |
+| Strings | 13,770 in 539 files; every key of Joomla 6.2.0 has a Kazakh value |
+| Left in English on purpose | 152 distinct strings: template position names, protocol and product names ([list](docs/keep-english.txt)) |
 | Installer language | included (`installation/language/kk-KZ`), not part of the Joomla package manifest |
+
+For Joomla 6.1.x use the release [6.1.4.4](https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/6.1.4.4).
 
 ## Installation
 
-1. Download `kk-KZ_joomla_lang_full_6.1.4v4.zip` from the release assets. If the file is missing, take the release's "Source code (zip)": the repository is laid out as a package and Joomla installs it the same way.
+1. Download `kk-KZ_joomla_lang_full_6.2.0v1.zip` from the release assets. If the file is missing, take the release's "Source code (zip)": the repository is laid out as a package and Joomla installs it the same way.
 2. In the administrator: System → Install → Extensions → Upload Package File.
 3. System → Languages → Installed: make Kazakh the default for the site and/or the administrator.
 
-To install Joomla itself in Kazakh, copy `installation/language/kk-KZ` into `installation/language/` of the Joomla distribution before starting the installer. The archive `kk-KZ_joomla_lang_root_6.1.4v4.zip` unpacks straight into the Joomla root and contains that folder.
+To install Joomla itself in Kazakh, copy `installation/language/kk-KZ` into `installation/language/` of the Joomla distribution before starting the installer. The archive `kk-KZ_joomla_lang_root_6.2.0v1.zip` unpacks straight into the Joomla root and contains that folder.
 
 ## What is inside
 
@@ -59,9 +61,9 @@ Details: [docs/MAINTAINING.md](docs/MAINTAINING.md).
 
 ## Where the text comes from
 
-The source strings are the English files of Joomla 6.1.4 (official release; the official source repository is [joomla/core-translations](https://github.com/joomla/core-translations)). The Kazakh text is the earlier version of this pack plus AI-assisted translation, checked against the **official Kazakh translation** of the Joomla Translations Working Group (translator: Akylkerey Sarvarov, [`joomla_v6/translations/package/kk-KZ`](https://github.com/joomla/core-translations/tree/main/joomla_v6/translations/package/kk-KZ), 12,146 of the 13,471 keys of Joomla 6). Where this pack's wording was demonstrably wrong, the official string is used: 193 strings, listed in [docs/adopt-official.txt](docs/adopt-official.txt).
+The source strings are the English files of Joomla 6.2.0 (official release; the official source repository is [joomla/core-translations](https://github.com/joomla/core-translations)). The Kazakh text is the earlier version of this pack plus AI-assisted translation, checked against the **official Kazakh translation** of the Joomla Translations Working Group (translator: Akylkerey Sarvarov, [`joomla_v6/translations/package/kk-KZ`](https://github.com/joomla/core-translations/tree/main/joomla_v6/translations/package/kk-KZ), 12,146 of the 13,471 keys of Joomla 6). Where this pack's wording was demonstrably wrong, the official string is used: 193 strings, listed in [docs/adopt-official.txt](docs/adopt-official.txt).
 
-The official translation is not taken wholesale, for two reasons. It has technical defects: 31 strings with more printf arguments than the original (a fatal error on PHP 8), 7 corrupted values, 7 with Russian text, 26 labels replaced by long sentences, 61 with the legacy `_QQ_` escape that Joomla 6 shows literally. And it has wrong wording in very visible places (Media is «Сурет», Global Check-in is «Жалпы Тіркеу», Overrides is «Өткізуден бас тарту»). Its terminology («мәзір», «санат», «үлгі», «бүркеншік ат») also differs from this pack's decisions («меню», «категория», «шаблон», «алиас»). Details, examples and the list of defects: [docs/OFFICIAL.md](docs/OFFICIAL.md); a table of 5,419 short labels for a native-speaker review: [docs/review/official-diff.tsv](docs/review/official-diff.tsv).
+The official translation is not taken wholesale, for two reasons. It has technical defects: 31 strings with more printf arguments than the original (a fatal error on PHP 8), 7 corrupted values, 7 with Russian text, 26 labels replaced by long sentences, 61 with the legacy `_QQ_` escape that Joomla 6 shows literally. And it has wrong wording in very visible places (Media is «Сурет», Global Check-in is «Жалпы Тіркеу», Overrides is «Өткізуден бас тарту»). Its terminology («мәзір», «санат», «үлгі», «бүркеншік ат») also differs from this pack's decisions («меню», «категория», «шаблон», «алиас»). Details, examples and the list of defects: [docs/OFFICIAL.md](docs/OFFICIAL.md); a table of 5,425 short labels for a native-speaker review: [docs/review/official-diff.tsv](docs/review/official-diff.tsv).
 
 An accredited Kazakh pack also exists for Joomla 3.9 to 5.0 ([downloads.joomla.org](https://downloads.joomla.org)), and Joomla 6 ships a partial Kazakh installer translation. This repository is an independent pack for Joomla 6 and does not claim to be the accredited one. Both use the package id `pkg_kk-KZ`, so this pack installs over an existing one as an upgrade.
 
@@ -71,11 +73,11 @@ The benchmark is expressions established in the language and the international a
 
 ## What is verified and what is not
 
-Verified by `tools/kkpack.py check`: in all 537 files the keys and their order equal the Joomla 6.1.4 original; no string uses more printf arguments or more variables of the `{NAME}` kind than the original (that would break a PHP 8 page or leave raw variables in an email); there are no unescaped quotes; every file parses with PHP 8.3 `parse_ini_file` without errors.
+Verified by `tools/kkpack.py check`: in all 539 files the keys and their order equal the Joomla 6.2.0 original; no string uses more printf arguments or more variables of the `{NAME}` kind than the original (that would break a PHP 8 page or leave raw variables in an email); there are no unescaped quotes; every file parses with PHP 8.3 `parse_ini_file` without errors.
 
 The strings were also run through `kk_lint` of [kk-redkollegiya](https://github.com/bsakhanov/kk-redkollegiya) v0.4.5; the findings and their interpretation are in [docs/QA.md](docs/QA.md).
 
-Also checked on a clean Joomla 6.1.4 (PHP 8.3, MariaDB 10.11): the package installs with Joomla's own installer and registers for the site, the administrator and the API; with Kazakh set as the default language, 79 administrator and site screens (lists, create forms, global configuration, extensions, languages, scheduler, workflows, privacy, Smart Search) open without PHP errors and without raw language keys, and the web installer starts in Kazakh. The check can be repeated: see [docs/MAINTAINING.md](docs/MAINTAINING.md).
+Also checked on a clean Joomla 6.2.0 (PHP 8.3, MariaDB 10.11): the package installs with Joomla's own installer and registers for the site, the administrator and the API; with Kazakh set as the default language, 80 administrator and site screens (lists, create forms, global configuration, extensions, languages, scheduler, workflows, privacy, Smart Search) open without PHP errors and without raw language keys, and the web installer starts in Kazakh. The check can be repeated: see [docs/MAINTAINING.md](docs/MAINTAINING.md).
 
 The administrator sidebar was also rendered in headless Chromium (`tools/sidebar_check.js`): in all expanded sections no label wraps and no «+» button drops to the next line.
 
@@ -91,4 +93,4 @@ Joomla! Project (original strings), Akylkerey Sarvarov and the Joomla Translatio
 
 ## Citation
 
-Sakhanov, B. Joomla 6 Kazakh language pack (kk-KZ), version 6.1.4.4. — 2026. — https://github.com/bsakhanov/joomla-kk-KZ. Machine-readable record: `CITATION.cff`.
+Sakhanov, B. Joomla 6 Kazakh language pack (kk-KZ), version 6.2.0.1. — 2026. — https://github.com/bsakhanov/joomla-kk-KZ. Machine-readable record: `CITATION.cff`.

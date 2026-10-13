@@ -55,10 +55,9 @@ Microsoft SQL Server
 Monospace Code
 Monospace Slab Serif
 MySQL
-MySQL (PDO)
-MySQLi
 Navigation
 Neo-Grotesque
+OAuth 2.0
 Offline
 Old Style
 Open basedir

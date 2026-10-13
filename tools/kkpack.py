@@ -174,12 +174,15 @@ def cmd_sync(a):
         for name in names:
             kp = kd / name
             kk = read_ini(kp)[0] if kp.exists() else {}
-            lines = []
+            lines = []; seen = set()
             for line in (ed / name).read_text(encoding='utf-8-sig').replace('\r\n', '\n').split('\n'):
                 m = LINE.match(line)
                 if not m:
                     lines.append(line.rstrip()); continue
                 key, ev, cm = m.group(1), m.group(2), m.group(3) or ''
+                if key in seen:
+                    continue  # the original repeats the key (Joomla ignores the repeat); keep one line
+                seen.add(key)
                 if key in kk:
                     v = kk[key]
                 else:

@@ -1,5 +1,21 @@
 # Changelog · История изменений
 
+## 6.2.0.1 — 13 October 2026 · 13 октября 2026 года
+
+**English.** Update for Joomla 6.2.0 (released on 13 October 2026, codename Mwezi). The pack for Joomla 6.1.x stays at 6.1.4.4.
+
+- 80 new strings are translated: SMTP authentication through OAuth 2.0 (31 strings), the new help page (19), language fallback settings (8), the TinyMCE link picker and the Read More button, figure classes of article images, subcategory images, login module links, the «What's New in Joomla 6.2» tour; the official Kazakh translation does not have most of them yet;
+- 12 strings whose English text changed are translated again (MariaDB/MySQL wording, the notice about the compatibility plugin with its new link, the field usage option, the database type hint);
+- Joomla 6.2.0 repeats one key (`PLG_QUICKICON_EXTENSIONUPDATE_SECURITY_UPDATEFOUND`) in an English file; `tools/kkpack.py sync` now keeps one line;
+- checked on a clean Joomla 6.2.0 (PHP 8.3, MariaDB 10.11): the package installs, 80 administrator and site screens open without PHP errors, the new help page and the sidebar are rendered in Kazakh; the smoke test now includes the help page.
+
+**Русский.** Обновление под Joomla 6.2.0 (выпущена 13 октября 2026 года, кодовое имя Mwezi). Пакет для Joomla 6.1.x остаётся на 6.1.4.4.
+
+- переведено 80 новых строк: SMTP-аутентификация через OAuth 2.0 (31 строка), новая страница справки (19), настройки резервного языка (8), окно выбора ссылок и кнопка «Читать далее» в TinyMCE, классы figure у изображений статей, изображения подкатегорий, ссылки модуля входа, обучающий тур «Что нового в Joomla 6.2»; в официальном казахском переводе большинства из них пока нет;
+- заново переведены 12 строк, у которых изменился английский текст (формулировки про MariaDB/MySQL, уведомление о плагине совместимости с новой ссылкой, вариант применения поля, подсказка о типе базы данных);
+- в английском файле Joomla 6.2.0 один ключ (`PLG_QUICKICON_EXTENSIONUPDATE_SECURITY_UPDATEFOUND`) повторён; `tools/kkpack.py sync` теперь оставляет одну строку;
+- проверено на чистой Joomla 6.2.0 (PHP 8.3, MariaDB 10.11): пакет ставится, 80 экранов админки и сайта открываются без ошибок PHP, новая страница справки и боковое меню отрисованы на казахском; обход экранов теперь включает страницу справки.
+
 ## 6.1.4.4 — 13 October 2026 · 13 октября 2026 года
 
 **English.** Feedback from a Kazakh Joomla specialist: page titles repeated a noun that the English original does not have.

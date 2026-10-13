@@ -69,11 +69,13 @@ com_admin.ini	COM_ADMIN_HELP_BANNERS:_NEW_OR_EDIT_CATEGORY	Banners: Categories -
 com_admin.ini	COM_ADMIN_HELP_BANNERS:_NEW_OR_EDIT_CLIENT	Banners: Clients - New/Edit	Баннерлер: Клиенттер — жасау/өңдеу	Баннерлер: Клиенттер - Жаңа/Өңдеу		
 com_admin.ini	COM_ADMIN_HELP_BANNERS:_TRACKS	Banners: Tracks	Баннерлер: Тректер	Баннерлер: тректер		
 com_admin.ini	COM_ADMIN_HELP_CHECK-IN:_OPTIONS	Check-in: Options	Блоктан шығару: Параметрлер	Тексеріңіз		
+com_admin.ini	COM_ADMIN_HELP_COMPONENTS	Components	Компоненттер	Құрамдас бөліктер		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_CONTACTS	Contacts	Байланыстар	Контакттар		
 com_admin.ini	COM_ADMIN_HELP_CONTACTS:_CATEGORIES	Contacts: Categories	Байланыстар: Категориялар	Байланыстар: Санаттар		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_CONTACTS:_EDIT	Contacts: New/Edit	Байланыстар: жасау/өңдеу	Контактілер: Жаңа/Өңдеу		
 com_admin.ini	COM_ADMIN_HELP_CONTACTS:_EDIT_CATEGORY	Contacts: Categories - New/Edit	Байланыстар: Категориялар — жасау/өңдеу	Контактілер: Санаттар - Жаңа/Өңдеу		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_CONTACTS:_OPTIONS	Contacts: Options	Байланыстар: Параметрлер	Контактілер: Параметрлер		
+com_admin.ini	COM_ADMIN_HELP_CONTENT	Content	Мақала	Контент		
 com_admin.ini	COM_ADMIN_HELP_EDIT_UPDATE_SITE	Edit Update Site	Жаңарту серверін өңдеу	Жаңарту сайтын өңдеу		
 com_admin.ini	COM_ADMIN_HELP_EXTENSIONS:_DISCOVER	Extensions: Discover	Кеңейтімдер: Іздеу	Кеңейтімдер: табу		
 com_admin.ini	COM_ADMIN_HELP_EXTENSIONS:_MANAGE	Extensions: Manage	Кеңейтімдер: Басқару	Кеңейтімдер: басқару		
@@ -89,6 +91,7 @@ com_admin.ini	COM_ADMIN_HELP_GUIDED_TOURS:_STEPS	Guided Tours: Steps	Оқыту 
 com_admin.ini	COM_ADMIN_HELP_INSTALLER:_OPTIONS	Installer: Options	Кеңейтімдер: Баптаулар	Орнатқыш: Параметрлер		
 com_admin.ini	COM_ADMIN_HELP_JOOMLA_UPDATE	Joomla Update	Joomla-ны жаңарту	Joomla-ны Жаңарту		
 com_admin.ini	COM_ADMIN_HELP_JOOMLA_UPDATE:_OPTIONS	Joomla Update: Options	Joomla-ны жаңарту: Баптаулар	Joomla жаңартуы: опциялар		
+com_admin.ini	COM_ADMIN_HELP_LANGUAGES	Languages	Тілдер	Тіл (дер)		
 com_admin.ini	COM_ADMIN_HELP_LANGUAGES:_CONTENT	Languages: Content	Тілдер: Контент тілдері	Тілдер: Жаңа / Өңдеу		
 com_admin.ini	COM_ADMIN_HELP_LANGUAGES:_EDIT_CONTENT_LANGUAGE	Languages: New/Edit	Тілдер: жасау/өңдеу	Тілдер: Жаңа/Өңдеу		
 com_admin.ini	COM_ADMIN_HELP_LANGUAGES:_EDIT_OVERRIDE	Languages: Overrides - New/Edit	Тілдер: Қайта анықтаулар — жасау/өңдеу	Тілдер: қайта анықтау - Жаңа/Өңдеу		
@@ -108,6 +111,7 @@ com_admin.ini	COM_ADMIN_HELP_MENUS:_EDIT	Menus: New/Edit	Меню: жасау/ө
 com_admin.ini	COM_ADMIN_HELP_MENUS:_ITEMS	Menu: Items	Меню: Пункттер	Мәзір: Элементтер		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_MENUS:_OPTIONS	Menus: Options	Меню: Баптаулар	Мәзірлер: Опциялар		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_MENU_ITEM:_NEW_ITEM	Menu: Items New/Edit	Меню: Пункттерді жасау/өңдеу	Мәзір: Жаңа элементтер/Өңдеу		contested term (glossary guard)
+com_admin.ini	COM_ADMIN_HELP_MENU_ITEMS	Menu Items	Меню пункттері	Мәзір элементтері		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_MULTILINGUAL_ASSOCIATIONS	Multilingual Associations	Көптілді байланыстар	Көптілді қауымдастықтар		
 com_admin.ini	COM_ADMIN_HELP_MULTILINGUAL_ASSOCIATIONS:_EDIT	Multilingual Associations: Select	Көптілді байланыстар: Таңдау	Көп тілді ассоциациялар: таңдау		
 com_admin.ini	COM_ADMIN_HELP_MULTILINGUAL_ASSOCIATIONS:_OPTIONS	Multilingual Associations: Options	Көптілді байланыстар: Параметрлер	Көптілді қауымдастықтар: параметрлер		
@@ -118,6 +122,7 @@ com_admin.ini	COM_ADMIN_HELP_PERMISSIONS_FOR_USER	Users: Debug Users Permissions
 com_admin.ini	COM_ADMIN_HELP_PLUGINS:_NAME_OF_PLUGIN	Plugins: New/Edit	Плагиндер: жасау/өңдеу	Плагиндер: Жаңа/Өңдеу		
 com_admin.ini	COM_ADMIN_HELP_POST-INSTALLATION_MESSAGES:_OPTIONS	Post-installation Messages: Options	Орнатудан кейінгі хабарламалар: Параметрлер	Орнатқаннан кейінгі хабарлар: параметрлер		
 com_admin.ini	COM_ADMIN_HELP_POST-INSTALLATION_MESSAGES_FOR_JOOMLA_CMS	Post-Installation Messages	Орнатудан кейінгі хабарламалар	Орнатудан кейінгі хабарлар		
+com_admin.ini	COM_ADMIN_HELP_PRIVACY	Privacy	Жеке деректер	Құпиялылық		
 com_admin.ini	COM_ADMIN_HELP_PRIVACY:_CONSENTS	Privacy: Consents	Жеке деректер: Келісімдер	Құпиялық: келісімдер		
 com_admin.ini	COM_ADMIN_HELP_PRIVACY:_EXTENSION_CAPABILITIES	Privacy: Extension Capabilities	Жеке деректер: Кеңейтімдердің мүмкіндіктері	Құпиялық: кеңейтілім мүмкіндіктері		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_PRIVACY:_INFORMATION_REQUESTS	Privacy: Information Requests	Жеке деректер: Ақпарат сұраулары	Құпиялылық: ақпарат сұраулары		
@@ -141,6 +146,7 @@ com_admin.ini	COM_ADMIN_HELP_SMART_SEARCH:_SEARCH_TERM_ANALYSIS	Smart Search: Se
 com_admin.ini	COM_ADMIN_HELP_TAGS:_NEW_OR_EDIT	Tags: New/Edit	Тегтер: жасау/өңдеу	Тегтер: Жаңа/Өңдеу		
 com_admin.ini	COM_ADMIN_HELP_TAGS:_OPTIONS	Tags: Options	Тегтер: Баптаулар	Тегтер: Параметрлер		
 com_admin.ini	COM_ADMIN_HELP_TEMPLATE:_OPTIONS	Template: Options	Шаблондар: Баптаулар	Үлгі: Параметрлер		contested term (glossary guard)
+com_admin.ini	COM_ADMIN_HELP_TEMPLATES	Templates	Шаблондар	Үлгілер		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_TEMPLATES:_CUSTOMISE	Templates: Edit	Шаблондар: Өңдеу	Үлгілер: Өңдеу		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_TEMPLATES:_CUSTOMISE_SOURCE	Templates: Source - Edit	Шаблондар: Бастапқы код — өңдеу	Үлгілер: Дереккөз - Өңдеу		contested term (glossary guard)
 com_admin.ini	COM_ADMIN_HELP_TEMPLATES:_EDIT_STYLE	Templates: Styles - Edit	Шаблондар: Стильдер — өңдеу	Үлгілер: стильдер - өңдеу		contested term (glossary guard)
@@ -156,6 +162,7 @@ com_admin.ini	COM_ADMIN_HELP_USER_ACTIONS_LOG	Action Logs	Пайдаланушы
 com_admin.ini	COM_ADMIN_HELP_USER_ACTIONS_LOG:_OPTIONS	User Actions Log: Options	Пайдаланушы әрекеттері журналы: Параметрлер	Пайдаланушы әрекеттер журналы: параметрлер		
 com_admin.ini	COM_ADMIN_HELP_USER_NOTES	Users: User Notes	Пайдаланушылар: Пайдаланушылар туралы жазбалар	Пайдаланушылар: Пайдаланушы жазбалары		
 com_admin.ini	COM_ADMIN_HELP_USER_NOTES:_NEW_OR_EDIT	Users: User Notes - New/Edit	Пайдаланушылар: Пайдаланушылар туралы жазбалар — жасау/өңдеу	Пайдаланушылар: Пайдаланушы жазбалары - Жаңа/Өңдеу		
+com_admin.ini	COM_ADMIN_HELP_WORKFLOWS	Workflows	Үдерістер	Жұмыс барысы		
 com_admin.ini	COM_ADMIN_JOOMLA_VERSION	Joomla! Version	Joomla нұсқасы	Joomla! Нұсқасы		
 com_admin.ini	COM_ADMIN_LOG_DIRECTORY	(Log folder)	(журнал қалтасы)	(Журнал қалтасы)		
 com_admin.ini	COM_ADMIN_MAX_INPUT_VARS	Maximum Input Variables	Кіріс айнымалыларының ең көп саны	Енгізудің ең үлкен айнымалылары		
@@ -316,6 +323,7 @@ com_banners.ini	COM_BANNERS_HEADING_TYPE_DESC	Type descending	Түрі (кему
 com_banners.ini	COM_BANNERS_IMPRESSION	Impression	Көрсетілім	Әсер		
 com_banners.ini	COM_BANNERS_MANAGER_BANNERS	Banners	Баннерлер	Баннер басқарушысы: баннерлер		
 com_banners.ini	COM_BANNERS_MANAGER_BANNER_EDIT	Banners: Edit	Баннерлер: Өңдеу	Баннерлер: өңдеу		
+com_banners.ini	COM_BANNERS_MANAGER_BANNER_NEW	Banners: New	Баннерлер: Жасау	Баннерлер: Жаңа		
 com_banners.ini	COM_BANNERS_MANAGER_TRACKS	Banners: Tracks	Баннерлер: Тректер	Баннерлер: тректер		
 com_banners.ini	COM_BANNERS_NOCATEGORYNAME	No category	Категориясыз	Санат жоқ		contested term (glossary guard)
 com_banners.ini	COM_BANNERS_NOCLIENTNAME	No client	Клиентсіз	Клиент жоқ		
@@ -411,7 +419,7 @@ com_categories.ini	JGLOBAL_NO_ITEM_SELECTED	No categories selected.	Бірде-�
 com_categories.sys.ini	COM_CATEGORIES	Categories	Категориялар	Санаттар		contested term (glossary guard)
 com_categories.sys.ini	COM_CATEGORIES_CATEGORIES_VIEW_DEFAULT_TITLE	List All Categories	Категориялар	Барлық санаттарды тізімдеу		contested term (glossary guard)
 com_categories.sys.ini	COM_CATEGORIES_CATEGORY_VIEW_EDIT_TITLE	Create New Category	Категория жасау	Жаңа санат жасау		contested term (glossary guard)
-com_categories.sys.ini	COM_CATEGORIES_CHOOSE_COMPONENT_LABEL	Choose a Component	Компонентті таңдаңыз	Құрамдас бөлікті таңдау		
+com_categories.sys.ini	COM_CATEGORIES_CHOOSE_COMPONENT_LABEL	Choose a Component	Компонентті таңдаңыз	Құрамдас бөлікті таңдау		contested term (glossary guard)
 com_categories.sys.ini	COM_CATEGORIES_XML_DESCRIPTION	This component manages categories.	Категорияларды басқаруға арналған компонент.	Бұл компонент санаттарды басқарады.		contested term (glossary guard)
 com_checkin.ini	COM_CHECKIN	Check-in	Элементтерді блоктан шығару	Тексеріңіз		
 com_checkin.ini	COM_CHECKIN_CONFIGURATION	Check-in: Options	Блоктан шығару: Параметрлер	Тексеріңіз		
@@ -577,7 +585,7 @@ com_config.ini	COM_CONFIG_TEXT_FILTER_SETTINGS	Text Filters	Мәтін сүзг�
 com_config.ini	COM_CONFIG_WEBSERVICES_SETTINGS	Web Services	Веб-қызметтердің параметрлері	Веб қызметтері		
 com_config.ini	COM_CONFIG_XML_DESCRIPTION	Configuration Manager	Сайт баптауларын басқаруға арналған компонент.	Конфигурация реттеушісі		
 com_config.sys.ini	COM_CONFIG	Configuration	Жалпы баптаулар	Конфигурация реттеушісі		
-com_config.sys.ini	COM_CONFIG_COMPONENT_VIEW_DEFAULT_TITLE	Component Configuration Options	Компонент конфигурациясының параметрлері	Құрамдас бөліктерді теңшеу параметрлері		
+com_config.sys.ini	COM_CONFIG_COMPONENT_VIEW_DEFAULT_TITLE	Component Configuration Options	Компонент конфигурациясының параметрлері	Құрамдас бөліктерді теңшеу параметрлері		contested term (glossary guard)
 com_config.sys.ini	COM_CONFIG_CONFIG_VIEW_DEFAULT_DESC	Displays global site configuration options.	Сайттың жалпы конфигурация параметрлерін көрсетеді.	Жаһандық сайт конфигурациясының параметрлерін көрсетеді.		
 com_config.sys.ini	COM_CONFIG_TEMPLATES_VIEW_DEFAULT_TITLE	Display Template Options	Шаблон параметрлері	Үлгі параметрлерін көрсету		contested term (glossary guard)
 com_config.sys.ini	COM_CONFIG_XML_DESCRIPTION	Configuration Manager	Сайт баптауларын басқаруға арналған компонент.	Конфигурация реттеушісі		
@@ -596,7 +604,6 @@ com_contact.ini	COM_CONTACT_COUNTRY	Country	Ел	Мемлекет
 com_contact.ini	COM_CONTACT_DEFAULT_PAGE_TITLE	Contacts	Байланыстар	Контакттар		
 com_contact.ini	COM_CONTACT_DETAILS	Contact	Байланыс	Контакт		
 com_contact.ini	COM_CONTACT_DOWNLOAD_INFORMATION_AS	Download information as:	Ақпаратты жүктеп алу:	Ақпаратты қалай жүктеу:		
-com_contact.ini	COM_CONTACT_EDIT_CONTACT	Edit Contact	Өңдеу	Контактіні өңдеу		
 com_contact.ini	COM_CONTACT_EDIT_PUBLISHED_CONTACT	Published Contact	Жарияланған	Жарияланған контакт		
 com_contact.ini	COM_CONTACT_EDIT_UNPUBLISHED_CONTACT	Unpublished Contact	Жарияланбаған	Жарияланбаған контакт		
 com_contact.ini	COM_CONTACT_EMAIL_FORM	Contact Form	Кері байланыс пішіні	Байланыс формасы		
@@ -694,8 +701,7 @@ com_contact.ini	COM_CONTACT_MAIL_MAIL_COPY_TITLE	Contacts: Contact Form Mail Cop
 com_contact.ini	COM_CONTACT_MAIL_MAIL_TITLE	Contacts: Contact Form Mail	Байланыстар: Байланыс формасының хаты	Байланыстар: Байланыс пішіні поштасы		
 com_contact.ini	COM_CONTACT_MANAGER_CONTACTS	Contacts	Байланыстар	Контакттар		
 com_contact.ini	COM_CONTACT_MANAGER_CONTACT_EDIT	Contacts: Edit	Байланыстар: Өңдеу	Контактілер: Өңдеу		
-com_contact.ini	COM_CONTACT_MANAGER_CONTACT_NEW	Contacts: New	Байланыстар: Жаңа	Контактілер: жаңа		
-com_contact.ini	COM_CONTACT_NEW_CONTACT	New Contact	Байланыс жасау	Жаңа контакт		
+com_contact.ini	COM_CONTACT_MANAGER_CONTACT_NEW	Contacts: New	Байланыстар: Жасау	Контактілер: жаңа		
 com_contact.ini	COM_CONTACT_NO_ITEM_SELECTED	No contacts selected.	Байланыстар таңдалмады.	Контактілер таңдалмады.		
 com_contact.ini	COM_CONTACT_NUMBER_CONTACTS_LIST_LABEL	# Contacts to List	Тізімдегі байланыстар саны	# Тізімге контактілер		
 com_contact.ini	COM_CONTACT_NUM_ITEMS	Contact Count:	Байланыстар саны:	Контактілер саны:		
@@ -791,6 +797,7 @@ com_content.ini	COM_CONTENT_FIELD_CREATED_BY_ALIAS_LABEL	Created by Alias	Авт
 com_content.ini	COM_CONTENT_FIELD_CREATED_LABEL	Created Date	Жасалған күні	Баннерді жасау күні		
 com_content.ini	COM_CONTENT_FIELD_FEATURED_DOWN_LABEL	Finish Featured	Таңдаулылардан шығу уақыты	Таңдаулыны аяқтау		
 com_content.ini	COM_CONTENT_FIELD_FEATURED_UP_LABEL	Start Featured	Таңдаулыларға қосылу уақыты	Таңдаулыны бастау		
+com_content.ini	COM_CONTENT_FIELD_FIGURE_CLASS_LABEL	Figure Class	Figure CSS класы	Сурет классы		
 com_content.ini	COM_CONTENT_FIELD_FULL_LABEL	Full Article Image	Толық мәтіннің суреті	Материалды толықтай көретін режимге арналған сурет		contested term (glossary guard)
 com_content.ini	COM_CONTENT_FIELD_IMAGE_ALT_EMPTY_LABEL	No Description	Сипаттамасыз	Сипаттамасы жоқ		
 com_content.ini	COM_CONTENT_FIELD_IMAGE_ALT_LABEL	Image Description (Alt Text)	Сипаттама	Алдыңғы мәтін		
@@ -857,9 +864,9 @@ com_content.ini	COM_CONTENT_PAGEBREAK_DOC_TITLE	Page Break	Бет үзілімі
 com_content.ini	COM_CONTENT_PAGEBREAK_INSERT_BUTTON	Insert Page Break	Кірістіру	Бетті осы жерден аяқтау		
 com_content.ini	COM_CONTENT_PAGEBREAK_TITLE	Page Title	Бет тақырыбы	Бет атауы:		
 com_content.ini	COM_CONTENT_PAGEBREAK_TOC	Table of Contents Alias	Мазмұн кестесіндегі бет тақырыбы	Мазмұны бүркеншік атауы:		contested term (glossary guard)
-com_content.ini	COM_CONTENT_PAGE_ADD_ARTICLE	Articles: New	Мақалалар: Мақала жасау	Мақалалар: жаңа		
-com_content.ini	COM_CONTENT_PAGE_EDIT_ARTICLE	Articles: Edit	Мақалалар: Мақаланы өңдеу	Мақалалар: өңдеу		
-com_content.ini	COM_CONTENT_PAGE_VIEW_ARTICLE	Articles: View	Мақалалар: Мақаланы қарау	Мақалалар: Көрініс		
+com_content.ini	COM_CONTENT_PAGE_ADD_ARTICLE	Articles: New	Мақалалар: Жасау	Мақалалар: жаңа		
+com_content.ini	COM_CONTENT_PAGE_EDIT_ARTICLE	Articles: Edit	Мақалалар: Өңдеу	Мақалалар: өңдеу		
+com_content.ini	COM_CONTENT_PAGE_VIEW_ARTICLE	Articles: View	Мақалалар: Қарау	Мақалалар: Көрініс		
 com_content.ini	COM_CONTENT_PUBLISHED_DATE	Published Date	Жарияланған күні	Жарияланған уақыты		
 com_content.ini	COM_CONTENT_PUBLISHING	Publishing	Жариялау	Құқықтар		
 com_content.ini	COM_CONTENT_PUBLISH_DOWN_ASC	Finish Publishing ascending	Жариялануының аяқталу күні (өсу бойынша)	Жариялауды аяқтау		
@@ -948,7 +955,7 @@ com_contenthistory.sys.ini	COM_CONTENTHISTORY	Content History	Нұсқалар �
 com_contenthistory.sys.ini	COM_CONTENTHISTORY_XML_DESCRIPTION	Content History Component.	Контент тарихы компоненті.	Мазмұн тарихы компоненті.		
 com_cpanel.ini	COM_CPANEL	Dashboard	Басқару панелі	Бақылау тақтасы		
 com_cpanel.ini	COM_CPANEL_ADD_DASHBOARD_MODULE	Add module to the dashboard	Басқару панеліне модуль қосу	Бақылау тақтасына модуль қосыңыз		
-com_cpanel.ini	COM_CPANEL_DASHBOARD_COMPONENTS_TITLE	Components Dashboard	Компоненттер	Құрамдас бөліктердің бақылау тақтасы		
+com_cpanel.ini	COM_CPANEL_DASHBOARD_COMPONENTS_TITLE	Components Dashboard	Компоненттер	Құрамдас бөліктердің бақылау тақтасы		contested term (glossary guard)
 com_cpanel.ini	COM_CPANEL_DASHBOARD_HELP_TITLE	Help	Көмек	Анықтама		
 com_cpanel.ini	COM_CPANEL_DASHBOARD_SYSTEM_TITLE	System Dashboard	Жүйе	Жүйенің бақылау тақтасы		
 com_cpanel.ini	COM_CPANEL_MESSAGES_REVIEW	Read Messages	Қарау	Хабарларды оқу		
@@ -1030,7 +1037,7 @@ com_fields.ini	COM_FIELDS_VIEW_FIELDS_SORT_GROUP_DESC	Field Group descending	Ө�
 com_fields.ini	COM_FIELDS_VIEW_FIELDS_SORT_TYPE_ASC	Type ascending	Түрі (өсу бойынша)	Өсуі бойынша түрі		
 com_fields.ini	COM_FIELDS_VIEW_FIELDS_SORT_TYPE_DESC	Type descending	Түрі (кему бойынша)	Кемеуі бойынша түрі		
 com_fields.ini	COM_FIELDS_XML_DESCRIPTION	Component to manage custom fields.	Пайдаланушылық өрістерді басқаруға арналған компонент.	Жеке өрістерді басқару үшін компонент.		
-com_fields.sys.ini	COM_FIELDS_CHOOSE_COMPONENT_LABEL	Choose a Component	Компонентті таңдаңыз	Құрамдас бөлікті таңдау		
+com_fields.sys.ini	COM_FIELDS_CHOOSE_COMPONENT_LABEL	Choose a Component	Компонентті таңдаңыз	Құрамдас бөлікті таңдау		contested term (glossary guard)
 com_fields.sys.ini	COM_FIELDS_FIELDS_VIEW_DEFAULT_TITLE	List All Fields	Өрістер	Барлық өрістерді тізімдеу		
 com_fields.sys.ini	COM_FIELDS_GROUPS_VIEW_DEFAULT_TITLE	List All Field Groups	Өріс топтары	Барлық өріс топтарының тізімі		
 com_fields.sys.ini	COM_FIELDS_XML_DESCRIPTION	Component to manage custom fields.	Пайдаланушылық өрістерді басқаруға арналған компонент.	Жеке өрістерді басқару үшін компонент.		
@@ -1799,12 +1806,12 @@ com_menus.ini	COM_MENUS_TYPE_ALIAS	Menu Item Alias	Меню пунктінің �
 com_menus.ini	COM_MENUS_TYPE_CONTAINER	Components Menu Container	Компоненттер контейнері	Құрамдастар мәзірінің контейнері		contested term (glossary guard)
 com_menus.ini	COM_MENUS_TYPE_EXTERNAL_URL_DESC	An external or internal URL.	Салыстырмалы немесе абсолютті сілтемені көрсету	Сыртқы немесе ішкі URL.		
 com_menus.ini	COM_MENUS_TYPE_HEADING	Menu Heading	Тақырыбы	Мәзірдің тақырыбы		contested term (glossary guard)
-com_menus.ini	COM_MENUS_VIEW_EDIT_ITEM_TITLE	Menus: Edit Item	Меню: Меню пунктін өңдеу	Мәзірлер: Элементті өңдеу		contested term (glossary guard)
-com_menus.ini	COM_MENUS_VIEW_EDIT_MENU_TITLE	Menus: Edit	Меню: Менюді өңдеу	Мәзірлер: өңдеу		contested term (glossary guard)
+com_menus.ini	COM_MENUS_VIEW_EDIT_ITEM_TITLE	Menus: Edit Item	Меню: Пунктті өңдеу	Мәзірлер: Элементті өңдеу		contested term (glossary guard)
+com_menus.ini	COM_MENUS_VIEW_EDIT_MENU_TITLE	Menus: Edit	Меню: Өңдеу	Мәзірлер: өңдеу		contested term (glossary guard)
 com_menus.ini	COM_MENUS_VIEW_ITEMS_ALL_TITLE	Menus: All Menu Items	Меню: Меню пункттері	Мәзірлер: Барлық мәзір элементтері		contested term (glossary guard)
 com_menus.ini	COM_MENUS_VIEW_MENUS_TITLE	Menus	Меню	Мәзірлер		contested term (glossary guard)
-com_menus.ini	COM_MENUS_VIEW_NEW_ITEM_TITLE	Menus: New Item	Меню: Меню пунктін жасау	Мәзірлер: жаңа элемент		contested term (glossary guard)
-com_menus.ini	COM_MENUS_VIEW_NEW_MENU_TITLE	Menus: Add	Меню: Меню жасау	Мәзірлер: Қосу		contested term (glossary guard)
+com_menus.ini	COM_MENUS_VIEW_NEW_ITEM_TITLE	Menus: New Item	Меню: Пункт жасау	Мәзірлер: жаңа элемент		contested term (glossary guard)
+com_menus.ini	COM_MENUS_VIEW_NEW_MENU_TITLE	Menus: Add	Меню: Жасау	Мәзірлер: Қосу		contested term (glossary guard)
 com_menus.ini	COM_MENUS_XML_DESCRIPTION	Component for creating menus.	Менюлерді басқаруға арналған компонент.	Мәзірлерді жасау компоненті.		contested term (glossary guard)
 com_menus.ini	JLIB_HTML_SETDEFAULT_ITEM	Set as Home	Басты бет ретінде орнату	Басты ретінде орнату		
 com_menus.ini	JTOOLBAR_DEFAULT	Home	Басты бет	Басты		
@@ -1813,7 +1820,7 @@ com_menus.sys.ini	COM_MENUS_ITEMS_CHOOSE_MENU_LABEL	Choose a Menutype	Меню �
 com_menus.sys.ini	COM_MENUS_ITEMS_VIEW_DEFAULT_TITLE	Menu Items	Меню пункттері	Мәзір элементтері		contested term (glossary guard)
 com_menus.sys.ini	COM_MENUS_ITEM_VIEW_EDIT_TITLE	New Menu Item	Меню пунктін жасау	Жаңа мәзір элементі		contested term (glossary guard)
 com_menus.sys.ini	COM_MENUS_MENUS_PRESET_ALTERNATE	Preset - Alternative Main Menu	Алдын ала орнату — Балама негізгі меню	Алдын ала орнату - Альтернативті негізгі мәзір		contested term (glossary guard)
-com_menus.sys.ini	COM_MENUS_MENUS_PRESET_COMPONENTS	Preset - Components Dashboard	Алдын ала орнату — Компоненттер тақтасы	Алдын ала орнату - Құрамдас бөліктердің бақылау тақтасы		
+com_menus.sys.ini	COM_MENUS_MENUS_PRESET_COMPONENTS	Preset - Components Dashboard	Алдын ала орнату — Компоненттер тақтасы	Алдын ала орнату - Құрамдас бөліктердің бақылау тақтасы		contested term (glossary guard)
 com_menus.sys.ini	COM_MENUS_MENUS_PRESET_DEFAULT	Preset - Joomla Main Menu	Басты меню	Алдын ала орнату - Joomla негізгі мәзірі		contested term (glossary guard)
 com_menus.sys.ini	COM_MENUS_MENUS_PRESET_HELP	Preset - Help Dashboard	Алдын ала орнату — Анықтама тақтасы	Алдын ала орнату - Анықтамалық бақылау тақтасы		
 com_menus.sys.ini	COM_MENUS_MENUS_PRESET_MENUS	Preset - Menus Dashboard	Алдын ала орнату — Меню тақтасы	Алдын ала орнату - Мәзірлердің бақылау тақтасы		contested term (glossary guard)
@@ -2038,7 +2045,7 @@ com_newsfeeds.ini	COM_NEWSFEEDS_FORM_TITLE_NEW	New News Feed	Жаңалықта�
 com_newsfeeds.ini	COM_NEWSFEEDS_HEADING_ASSOCIATION	Association	Байланыстар	Қауымдастық		
 com_newsfeeds.ini	COM_NEWSFEEDS_LEFT	Left	Сол жақта	Сол		
 com_newsfeeds.ini	COM_NEWSFEEDS_MANAGER_NEWSFEED_EDIT	News Feeds: Edit	Жаңалықтар таспалары: Өңдеу	Жаңалықтар арналары: өңдеу		
-com_newsfeeds.ini	COM_NEWSFEEDS_MANAGER_NEWSFEED_NEW	News Feeds: New	Жаңалықтар таспалары: Жаңа	Жаңалықтар таспасы: жаңа		
+com_newsfeeds.ini	COM_NEWSFEEDS_MANAGER_NEWSFEED_NEW	News Feeds: New	Жаңалықтар таспалары: Жасау	Жаңалықтар таспасы: жаңа		
 com_newsfeeds.ini	COM_NEWSFEEDS_NO_ITEM_SELECTED	No news feeds selected.	Жаңалықтар таспалары таңдалмады.	Жаңалықтар арналары таңдалған жоқ.		
 com_newsfeeds.ini	COM_NEWSFEEDS_NUM_ARTICLES_HEADING_ASC	# Articles ascending	Мақалалар саны (өсу бойынша)	# Мақалалар көтеріледі		
 com_newsfeeds.ini	COM_NEWSFEEDS_NUM_ARTICLES_HEADING_DESC	# Articles descending	Мақалалар саны (кему бойынша)	# Мақалалар кемуі		
@@ -2221,7 +2228,7 @@ com_redirect.ini	COM_REDIRECT_HEADING_STATUS_CODE_ASC	Status Code ascending	Кү
 com_redirect.ini	COM_REDIRECT_HEADING_STATUS_CODE_DESC	Status Code descending	Күй коды (кему бойынша)	Күйдің коды төмендеуі		
 com_redirect.ini	COM_REDIRECT_MANAGER_LINKS	Redirects: Links	Қайта бағыттаулар	Қайта бағыттау: сілтемелер		
 com_redirect.ini	COM_REDIRECT_MANAGER_LINK_EDIT	Redirects: Edit	Қайта бағыттаулар: Өңдеу	Бағыттар: өңдеу		
-com_redirect.ini	COM_REDIRECT_MANAGER_LINK_NEW	Redirects: New	Қайта бағыттаулар: Жаңа	Бағыттар: жаңа		
+com_redirect.ini	COM_REDIRECT_MANAGER_LINK_NEW	Redirects: New	Қайта бағыттаулар: Жасау	Бағыттар: жаңа		
 com_redirect.ini	COM_REDIRECT_MODE_LABEL	Activate Advanced Mode	Кеңейтілген режимді қосу	Кеңейтілген режимді іске қосу		
 com_redirect.ini	COM_REDIRECT_NO_ITEM_ADDED	No links added.	Сілтемелер қосылмады.	Қосылымдар қосылмады.		
 com_redirect.ini	COM_REDIRECT_NO_ITEM_SELECTED	No links selected.	Сілтемелер таңдалмады.	Таңдалған сілтемелер жоқ.		
@@ -2351,8 +2358,7 @@ com_tags.ini	COM_TAGS_LEFT	Left	Сол жақта	Сол
 com_tags.ini	COM_TAGS_LIST_MAX_CHARACTERS_LABEL	Maximum Characters	Таңбалар саны	Максималды таңбалар		
 com_tags.ini	COM_TAGS_LIST_MAX_LABEL	Maximum Items	Элементтер саны	Максималды элементтер		
 com_tags.ini	COM_TAGS_LIST_SELECTION_OPTIONS	Item Selection Options	Тегтерді таңдау	Элемент таңдау параметрлері		
-com_tags.ini	COM_TAGS_MANAGER_TAG_EDIT	Tags: Edit	Тегтер: Тегті өңдеу	Тегтер: Өңдеу		
-com_tags.ini	COM_TAGS_MANAGER_TAG_NEW	Tags: New	Тегтер: Тег жасау	Тегтер: Жаңа		
+com_tags.ini	COM_TAGS_MANAGER_TAG_NEW	Tags: New	Тегтер: Жасау	Тегтер: Жаңа		
 com_tags.ini	COM_TAGS_MATCH_COUNT	Number of matching tags	Сәйкес тегтер саны	Сәйкес келетін тегтер саны		
 com_tags.ini	COM_TAGS_MODIFIED_DATE	Modified Date	Өзгертілген күні	Өзгеріс енгізілген уақыт		
 com_tags.ini	COM_TAGS_NO_ITEMS	No matching items were found.	Көрсетілетін элементтер жоқ.	Мұндай белгі жоқ		
@@ -2537,7 +2543,7 @@ com_templates.ini	COM_TEMPLATES_N_OVERRIDE_UNCHECKED_1	Record unchecked.	%d фа
 com_templates.ini	COM_TEMPLATES_OPTION_NONE	:: None ::	- Жоқ -	Ешқандай::		
 com_templates.ini	COM_TEMPLATES_OPTION_SELECT_MENU_ITEM	- Select Menu Item -	- Меню пунктін таңдау -	- Меню тармағын таңдаңыз -		
 com_templates.ini	COM_TEMPLATES_OVERRIDES	Override Files	Қайта анықтаулар	Файлдарды қайта анықтау		
-com_templates.ini	COM_TEMPLATES_OVERRIDES_COMPONENTS	Components	Компоненттер	Құрамдас бөліктер		
+com_templates.ini	COM_TEMPLATES_OVERRIDES_COMPONENTS	Components	Компоненттер	Құрамдас бөліктер		contested term (glossary guard)
 com_templates.ini	COM_TEMPLATES_OVERRIDE_CORE_REMOVED	Original file removed	Бастапқы файл жойылды	Түпнұсқа файл жойылды		
 com_templates.ini	COM_TEMPLATES_OVERRIDE_CREATED	Override created in 	Қайта анықтау файлдары каталогта сәтті жасалды	Жасалынған аутентификация		
 com_templates.ini	COM_TEMPLATES_OVERRIDE_CREATED_DATE	Added to the list	Тізімге қосылған күні	Тізімге қосылды		
@@ -2587,8 +2593,8 @@ com_templates.sys.ini	COM_TEMPLATES	Templates	Шаблондар	Үлгілер	
 com_templates.sys.ini	COM_TEMPLATES_STYLE_VIEW_DEFAULT_TITLE	Template Styles	Стильдер	Үлгі стилі		contested term (glossary guard)
 com_templates.sys.ini	COM_TEMPLATES_TEMPLATES_VIEW_DEFAULT_TITLE	Templates	Шаблондар	Үлгілер		contested term (glossary guard)
 com_templates.sys.ini	COM_TEMPLATES_XML_DESCRIPTION	This component manages templates.	Стильдер мен шаблондарды басқаруға арналған компонент.	Бұл құрамдас үлгілерді басқарады.		contested term (glossary guard)
-com_users.ini	COM_CATEGORIES_CATEGORY_ADD_TITLE	User Notes: New Category	Пайдаланушылар: Жазбалар категориясын жасау	Пайдаланушы ескертпелері: жаңа санат		contested term (glossary guard)
-com_users.ini	COM_CATEGORIES_CATEGORY_EDIT_TITLE	User Notes: Edit Category	Пайдаланушылар: Жазбалар категориясын өңдеу	Пайдаланушы ескертпелері: Санатты өңдеу		contested term (glossary guard)
+com_users.ini	COM_CATEGORIES_CATEGORY_ADD_TITLE	User Notes: New Category	Пайдаланушы жазбалары: Категория жасау	Пайдаланушы ескертпелері: жаңа санат		contested term (glossary guard)
+com_users.ini	COM_CATEGORIES_CATEGORY_EDIT_TITLE	User Notes: Edit Category	Пайдаланушы жазбалары: Категорияны өңдеу	Пайдаланушы ескертпелері: Санатты өңдеу		contested term (glossary guard)
 com_users.ini	COM_MODULES_NONE	:: None ::	- Жоқ -	Ешқандай::		
 com_users.ini	COM_USERS_A11Y_SETTINGS_FIELDSET_LABEL	Accessibility Settings	Қолжетімділік	Арнайы мүмкіндіктер параметрлері		
 com_users.ini	COM_USERS_A11Y_SETTINGS_FIELD_CONTRAST	High Contrast	Контрастты арттыру	Жоғары контраст		
@@ -2870,15 +2876,14 @@ com_users.ini	COM_USERS_USER_MULTIFACTOR_AUTH	Multi-factor Authentication	Көп
 com_users.ini	COM_USERS_USER_NEW_USER_TITLE	New User Details	Пайдаланушы жасау	Жаңа пайдаланушы мәліметтері		
 com_users.ini	COM_USERS_USER_NOT_FOUND	User not found.	Пайдаланушы табылмады.	Қолданушы табылмады		
 com_users.ini	COM_USERS_USER_SAVE_SUCCESS	User saved.	Профиль сәтті сақталды.	Пайдаланушы сақталды.		
-com_users.ini	COM_USERS_VIEW_EDIT_GROUP_TITLE	Users: Edit Group	Пайдаланушылар: Пайдаланушылар тобын өңдеу	Пайдаланушылар: Топты өңдеу		
 com_users.ini	COM_USERS_VIEW_EDIT_LEVEL_TITLE	Users: Edit Viewing Access Level	Пайдаланушылар: Қолжетімділік деңгейін өңдеу	Пайдаланушылар: Ену деңгейін көруді өңдеу		
 com_users.ini	COM_USERS_VIEW_EDIT_PROFILE_TITLE	Users: Edit Profile	Пайдаланушылар: Профильді өңдеу	Пайдаланушылар: Профайлды өңдеу		
-com_users.ini	COM_USERS_VIEW_EDIT_USER_TITLE	Users: Edit	Пайдаланушылар: Пайдаланушыны өңдеу	Пайдаланушылар: өңдеу		
+com_users.ini	COM_USERS_VIEW_EDIT_USER_TITLE	Users: Edit	Пайдаланушылар: Өңдеу	Пайдаланушылар: өңдеу		
 com_users.ini	COM_USERS_VIEW_GROUPS_TITLE	Users: Groups	Пайдаланушылар: Пайдаланушылар топтары	Пайдаланушылар: Топтар		
 com_users.ini	COM_USERS_VIEW_LEVELS_TITLE	Users: Viewing Access Levels	Пайдаланушылар: Қолжетімділік деңгейлері	Пайдаланушылар: қатынас деңгейлерін көру		
-com_users.ini	COM_USERS_VIEW_NEW_GROUP_TITLE	Users: New Group	Пайдаланушылар: Пайдаланушылар тобын жасау	Пайдаланушылар: жаңа топ		
+com_users.ini	COM_USERS_VIEW_NEW_GROUP_TITLE	Users: New Group	Пайдаланушылар: Топ жасау	Пайдаланушылар: жаңа топ		
 com_users.ini	COM_USERS_VIEW_NEW_LEVEL_TITLE	Users: New Viewing Access Level	Пайдаланушылар: Қолжетімділік деңгейін жасау	Пайдаланушылар: жаңа көруге рұқсат деңгейі		
-com_users.ini	COM_USERS_VIEW_NEW_USER_TITLE	Users: New	Пайдаланушылар: Пайдаланушы жасау	Пайдаланушылар: жаңа		
+com_users.ini	COM_USERS_VIEW_NEW_USER_TITLE	Users: New	Пайдаланушылар: Жасау	Пайдаланушылар: жаңа		
 com_users.ini	COM_USERS_VIEW_NOTES_TITLE	User Notes	Пайдаланушылар: Пайдаланушылар туралы жазбалар	Пайдаланушы ескертулері		
 com_users.ini	COM_USERS_XML_DESCRIPTION	Component for managing users	Пайдаланушыларды басқаруға арналған компонент.	Пайдаланушыларды басқару компоненті		
 com_users.sys.ini	COM_USERS_CONTENT_TYPE_CATEGORY	User Notes Category	Жазбалар категориялары	Пайдаланушы ескертпелері санаты		contested term (glossary guard)
@@ -4191,7 +4196,7 @@ mod_menu.ini	MOD_MENU_ACCESS_SETTINGS	Settings	Параметрлер	Күйге
 mod_menu.ini	MOD_MENU_ACCESS_TEXT_FILTERS	Text Filters	Мәтін сүзгілері	Мәтіндік сүзгілер		
 mod_menu.ini	MOD_MENU_ARIA_CLOSE_SUBMENU	Close Sub Menu	Жабу	Ішкі мәзірді жабу		contested term (glossary guard)
 mod_menu.ini	MOD_MENU_ARIA_MAIN_MENU	Main Menu	Басты меню	Негізгі мәзір		contested term (glossary guard)
-mod_menu.ini	MOD_MENU_COMPONENTS	Components	Компоненттер	Құрамдас бөліктер		
+mod_menu.ini	MOD_MENU_COMPONENTS	Components	Компоненттер	Құрамдас бөліктер		contested term (glossary guard)
 mod_menu.ini	MOD_MENU_COM_ACTIONLOGS	User Actions Log	Әрекеттер журналы	Пайдаланушы әрекеттер журналы		
 mod_menu.ini	MOD_MENU_COM_CONTENT	Content	Мақала	Контент		
 mod_menu.ini	MOD_MENU_COM_LANGUAGES_SUBMENU_CONTENT	Content Languages	Контент тілдері	Мазмұн тілдері		
@@ -4668,6 +4673,7 @@ plg_editors_tinymce.ini	PLG_TINY_FIELD_VALUE_RTL	Right to Left	Оңнан сол
 plg_editors_tinymce.ini	PLG_TINY_FIELD_VALUE_SCROLLING	Scrolling	Айналмалы	Айналдыру		
 plg_editors_tinymce.ini	PLG_TINY_FIELD_VALUE_WRAP	Wrap	Тасымалдау	Орау		
 plg_editors_tinymce.ini	PLG_TINY_FIELD_WORDCOUNT_LABEL	Word Count	Сөздер саны	Сөздердің саны		
+plg_editors_tinymce.ini	PLG_TINY_LINK_MEDIA	Media	Медиа	Сурет		
 plg_editors_tinymce.ini	PLG_TINY_SET_PRESET_BUTTON_ADVANCED	Use advanced preset	Кеңейтілген алдын ала орнатуды пайдалану	Жетілдірілген алдын-ала орнатылғанды ​​пайдалану		
 plg_editors_tinymce.ini	PLG_TINY_SET_PRESET_BUTTON_MEDIUM	Use medium preset	Орташа алдын ала орнатуды пайдалану	Орташа алдын-ала пайдалану		
 plg_editors_tinymce.ini	PLG_TINY_SET_PRESET_BUTTON_SIMPLE	Use simple preset	Қарапайым алдын ала орнатуды пайдалану	Қарапайым алдын-ала орнатуды қолданыңыз		

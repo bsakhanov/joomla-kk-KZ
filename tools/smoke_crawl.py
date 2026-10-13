@@ -3,7 +3,7 @@
 # Copyright (C) 2026 Beibit Sakhanov
 """Smoke test of the language pack on a running Joomla.
 
-Logs in to the administrator, opens 81 screens (79 must answer 200, two are expected error pages) and reports PHP errors,
+Logs in to the administrator, opens 82 screens (80 must answer 200, two are expected error pages) and reports PHP errors,
 raw language keys and unexpected HTTP statuses. Install the pack and make it the default language first, see docs/MAINTAINING.md.
 
   python3 tools/smoke_crawl.py --base http://127.0.0.1:8099 --user admin --password 'a-long-password-12345'
@@ -34,7 +34,7 @@ PAGES = [
     ('privacy capabilities', A + 'com_privacy&view=capabilities'), ('action logs', A + 'com_actionlogs&view=actionlogs'), ('guided tours', A + 'com_guidedtours&view=tours'),
     ('mail templates', A + 'com_mails&view=templates'), ('redirects', A + 'com_redirect&view=links'), ('check-in', A + 'com_checkin'), ('cache', A + 'com_cache'),
     ('associations', A + 'com_associations'), ('system information', A + 'com_admin&view=sysinfo'), ('messages', A + 'com_messages&view=messages'),
-    ('post-installation', A + 'com_postinstall&view=messages&eid=700'),
+    ('post-installation', A + 'com_postinstall&view=messages&eid=700'), ('help', A + 'com_admin&view=help'),
     ('category add', A + 'com_categories&task=category.add&extension=com_content'), ('tag add', A + 'com_tags&task=tag.add'), ('contact add', A + 'com_contact&task=contact.add'),
     ('banner add', A + 'com_banners&task=banner.add'), ('newsfeed add', A + 'com_newsfeeds&task=newsfeed.add'), ('field add', A + 'com_fields&task=field.add&context=com_content.article'),
     ('workflow add', A + 'com_workflow&task=workflow.add&extension=com_content.article'), ('group add', A + 'com_users&task=group.add'), ('tour add', A + 'com_guidedtours&task=tour.add'),
