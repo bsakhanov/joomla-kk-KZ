@@ -1,5 +1,17 @@
 # Changelog · История изменений
 
+## 6.1.4.4 — 13 October 2026 · 13 октября 2026 года
+
+**English.** Feedback from a Kazakh Joomla specialist: page titles repeated a noun that the English original does not have.
+
+- 20 page titles of the form «X: New / Edit / Add / View» now say «X: Жасау / Өңдеу / Жасау / Қарау» without repeating the noun: «Мақалалар: Мақала жасау» → «Мақалалар: Жасау», «Мақалалар: Мақаланы өңдеу» → «Мақалалар: Өңдеу»; the same for users, groups, tags, menus, menu items, banners, contacts, news feeds, redirects, templates and user note categories. On a phone the long title was clipped by the gear button; the short one fits;
+- the rule is recorded in `GLOSSARY.md` and in `docs/overrides.tsv`.
+
+**Русский.** Замечания специалиста по Joomla: в заголовках страниц повторялось существительное, которого нет в английском оригинале.
+
+- 20 заголовков вида «X: New / Edit / Add / View» теперь без повтора существительного: «Мақалалар: Мақала жасау» → «Мақалалар: Жасау», «Мақалалар: Мақаланы өңдеу» → «Мақалалар: Өңдеу»; так же для пользователей, групп, тегов, меню, пунктов меню, баннеров, контактов, лент новостей, перенаправлений, шаблонов и категорий заметок. На телефоне длинный заголовок обрезался кнопкой с шестерёнкой, короткий помещается;
+- правило записано в глоссарии и в `docs/overrides.tsv`.
+
 ## 6.1.4.3 — 13 October 2026 · 13 октября 2026 года
 
 **English.** Feedback from a Kazakh Joomla specialist: some labels were too long and broke the look of the administrator, and the pack should not rest on the Russian JPath pack.

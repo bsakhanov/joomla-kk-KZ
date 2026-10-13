@@ -22,6 +22,7 @@ The frequent terms of the pack and the decisions behind them. The second table i
 | scheduled tasks | жоспарланған тапсырмалар | official wording, more exact than «тапсырмалар жоспарлаушысы» |
 | check-in | блоктан шығару | |
 | smart search | ақылды іздеу | |
+| page titles «X: New / Edit / View» | «X: Жасау» / «X: Өңдеу» / «X: Қарау» | the noun is not repeated: «Мақалалар: Жасау», not «Мақалалар: Мақала жасау» · существительное не повторяется |
 | template positions (Top, Sidebar-left, Position 0, ...) | not translated · не переводятся | identifiers · идентификаторы |
 
 The glossary guard (`docs/glossary-guard.txt`) lists the official terms that conflict with these decisions. · Охранный список (`docs/glossary-guard.txt`) содержит официальные термины, которые противоречат этим решениям.

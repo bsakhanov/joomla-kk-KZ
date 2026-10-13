@@ -101,3 +101,23 @@ site/joomla.ini/JGLOBAL_SECRETKEY	Құпия кілт	curated
 site/mod_articles_category.ini/MOD_ARTICLES_CATEGORY_FIELD_COUNT_LABEL	Саны	curated
 site/mod_articles_news.ini/MOD_ARTICLES_NEWS_FIELD_ORDERING_ORDERING	Реттеу	curated
 administrator/mod_menu.ini/MOD_MENU_EXTENSIONS_MODULE_MANAGER_ADMINISTRATOR	Әкімші модульдері	curated: sidebar fit (28 characters did not fit next to the plus icon)
+administrator/com_banners.ini/COM_BANNERS_MANAGER_BANNER_NEW	Баннерлер: Жасау	page title: the noun is not repeated
+administrator/com_contact.ini/COM_CONTACT_MANAGER_CONTACT_NEW	Байланыстар: Жасау	page title: the noun is not repeated
+administrator/com_content.ini/COM_CONTENT_PAGE_ADD_ARTICLE	Мақалалар: Жасау	page title: the noun is not repeated
+administrator/com_content.ini/COM_CONTENT_PAGE_EDIT_ARTICLE	Мақалалар: Өңдеу	page title: the noun is not repeated
+administrator/com_content.ini/COM_CONTENT_PAGE_VIEW_ARTICLE	Мақалалар: Қарау	page title: the noun is not repeated
+administrator/com_menus.ini/COM_MENUS_VIEW_EDIT_ITEM_TITLE	Меню: Пунктті өңдеу	page title: the noun is not repeated
+administrator/com_menus.ini/COM_MENUS_VIEW_EDIT_MENU_TITLE	Меню: Өңдеу	page title: the noun is not repeated
+administrator/com_menus.ini/COM_MENUS_VIEW_NEW_ITEM_TITLE	Меню: Пункт жасау	page title: the noun is not repeated
+administrator/com_menus.ini/COM_MENUS_VIEW_NEW_MENU_TITLE	Меню: Жасау	page title: the noun is not repeated
+administrator/com_newsfeeds.ini/COM_NEWSFEEDS_MANAGER_NEWSFEED_NEW	Жаңалықтар таспалары: Жасау	page title: the noun is not repeated
+administrator/com_redirect.ini/COM_REDIRECT_MANAGER_LINK_NEW	Қайта бағыттаулар: Жасау	page title: the noun is not repeated
+administrator/com_tags.ini/COM_TAGS_MANAGER_TAG_EDIT	Тегтер: Өңдеу	page title: the noun is not repeated
+administrator/com_tags.ini/COM_TAGS_MANAGER_TAG_NEW	Тегтер: Жасау	page title: the noun is not repeated
+administrator/com_templates.ini/COM_TEMPLATES_MANAGER_VIEW_TEMPLATE	Шаблондар: Өңдеу (%s)	page title: the noun is not repeated
+administrator/com_users.ini/COM_USERS_VIEW_EDIT_GROUP_TITLE	Пайдаланушылар: Топты өңдеу	page title: the noun is not repeated
+administrator/com_users.ini/COM_USERS_VIEW_EDIT_USER_TITLE	Пайдаланушылар: Өңдеу	page title: the noun is not repeated
+administrator/com_users.ini/COM_USERS_VIEW_NEW_GROUP_TITLE	Пайдаланушылар: Топ жасау	page title: the noun is not repeated
+administrator/com_users.ini/COM_USERS_VIEW_NEW_USER_TITLE	Пайдаланушылар: Жасау	page title: the noun is not repeated
+administrator/com_users.ini/COM_CATEGORIES_CATEGORY_ADD_TITLE	Пайдаланушы жазбалары: Категория жасау	page title: the noun is not repeated
+administrator/com_users.ini/COM_CATEGORIES_CATEGORY_EDIT_TITLE	Пайдаланушы жазбалары: Категорияны өңдеу	page title: the noun is not repeated

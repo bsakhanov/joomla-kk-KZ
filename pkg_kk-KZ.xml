@@ -2,7 +2,7 @@
 <extension type="package" method="upgrade">
 	<name>Kazakh (kk-KZ) Language Pack</name>
 	<packagename>kk-KZ</packagename>
-	<version>6.1.4.3</version>
+	<version>6.1.4.4</version>
 	<creationDate>2026-10</creationDate>
 	<author>Sarvarov Akylkerey (official Kazakh translation); Beibit Sakhanov (Webmarka)</author>
 	<authorEmail>support@webmarka.kz</authorEmail>

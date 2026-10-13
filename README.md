@@ -10,25 +10,25 @@
 
 An open-source Kazakh (kk-KZ) language pack for Joomla 6 and later: administrator, site, Web Services API and the installer. The repository is laid out like the Russian pack repository [JPathRu/localisation](https://github.com/JPathRu/localisation): the repository root is the package root, one release per Joomla version, terminology lives in a [glossary](GLOSSARY.md), mistakes are reported as issues.
 
-**Page:** https://bsakhanov.github.io/joomla-kk-KZ/ · **Release:** https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/6.1.4.3
+**Page:** https://bsakhanov.github.io/joomla-kk-KZ/ · **Release:** https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/6.1.4.4
 
 ## Status
 
 | | |
 | --- | --- |
 | Joomla version | 6.1.4 (6.2 follows after its stable release) |
-| Pack version | 6.1.4.3: the Joomla version plus the translation revision |
+| Pack version | 6.1.4.4: the Joomla version plus the translation revision |
 | Strings | 13,691 in 537 files; every key of Joomla 6.1.4 has a Kazakh value |
 | Left in English on purpose | 153 distinct strings: template position names, protocol and product names ([list](docs/keep-english.txt)) |
 | Installer language | included (`installation/language/kk-KZ`), not part of the Joomla package manifest |
 
 ## Installation
 
-1. Download `kk-KZ_joomla_lang_full_6.1.4v3.zip` from the release assets. If the file is missing, take the release's "Source code (zip)": the repository is laid out as a package and Joomla installs it the same way.
+1. Download `kk-KZ_joomla_lang_full_6.1.4v4.zip` from the release assets. If the file is missing, take the release's "Source code (zip)": the repository is laid out as a package and Joomla installs it the same way.
 2. In the administrator: System → Install → Extensions → Upload Package File.
 3. System → Languages → Installed: make Kazakh the default for the site and/or the administrator.
 
-To install Joomla itself in Kazakh, copy `installation/language/kk-KZ` into `installation/language/` of the Joomla distribution before starting the installer. The archive `kk-KZ_joomla_lang_root_6.1.4v3.zip` unpacks straight into the Joomla root and contains that folder.
+To install Joomla itself in Kazakh, copy `installation/language/kk-KZ` into `installation/language/` of the Joomla distribution before starting the installer. The archive `kk-KZ_joomla_lang_root_6.1.4v4.zip` unpacks straight into the Joomla root and contains that folder.
 
 ## What is inside
 
@@ -91,4 +91,4 @@ Joomla! Project (original strings), Akylkerey Sarvarov and the Joomla Translatio
 
 ## Citation
 
-Sakhanov, B. Joomla 6 Kazakh language pack (kk-KZ), version 6.1.4.3. — 2026. — https://github.com/bsakhanov/joomla-kk-KZ. Machine-readable record: `CITATION.cff`.
+Sakhanov, B. Joomla 6 Kazakh language pack (kk-KZ), version 6.1.4.4. — 2026. — https://github.com/bsakhanov/joomla-kk-KZ. Machine-readable record: `CITATION.cff`.

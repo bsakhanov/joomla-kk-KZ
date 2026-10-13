@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Sakhanov
     given-names: Beibit
-version: "6.1.4.3"
+version: "6.1.4.4"
 date-released: "2026-10-13"
 license: GPL-2.0-or-later
 repository-code: "https://github.com/bsakhanov/joomla-kk-KZ"
