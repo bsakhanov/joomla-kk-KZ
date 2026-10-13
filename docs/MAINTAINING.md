@@ -11,6 +11,16 @@ The pack follows Joomla releases: the first three numbers of the version (6.1.4)
 5. `python3 tools/kkpack.py check --en .cache/joomla-6.1.5` must report no errors.
 6. `python3 tools/kkpack.py bump 6.1.5.1` writes the version into the manifests; update `CHANGELOG.md` and `CITATION.cff`.
 7. `python3 tools/kkpack.py build` creates two archives in `dist/` and `SHA256SUMS`: the installable package (`..._full_...`) and the archive for unpacking into the Joomla root with the installer language (`..._root_...`). Tag the release with the pack version (`6.1.5.1`) and attach both files.
+8. Smoke test on a clean Joomla (optional but recommended):
+   ```bash
+   php installation/joomla.php install --site-name=Test --admin-user="Admin User" --admin-username=admin --admin-password='a-long-password-12345' --admin-email=admin@example.kz --db-type=mysqli --db-host=127.0.0.1 --db-user=USER --db-pass=PASS --db-name=DB --db-prefix=jt_ --db-encryption=0
+   php cli/joomla.php extension:install --path=/path/to/dist/kk-KZ_joomla_lang_full_6.1.5v1.zip
+   mysql DB -e "UPDATE jt_extensions SET params = JSON_SET(params,'\$.administrator','kk-KZ','\$.site','kk-KZ') WHERE element='com_languages' AND type='component'"
+   # put  public $live_site = 'http://127.0.0.1:8099';  into configuration.php, then:
+   php -S 127.0.0.1:8099 -t /path/to/joomla &
+   python3 tools/smoke_crawl.py --base http://127.0.0.1:8099 --user admin --password 'a-long-password-12345'
+   ```
+   The script logs in to the administrator, opens about 80 screens and reports PHP errors, raw language keys and non-200 answers.
 
 ## Русский
 
@@ -23,3 +33,4 @@ The pack follows Joomla releases: the first three numbers of the version (6.1.4)
 5. `python3 tools/kkpack.py check --en .cache/joomla-6.1.5` не должен показывать ошибок.
 6. `python3 tools/kkpack.py bump 6.1.5.1` запишет версию в манифесты; обновите `CHANGELOG.md` и `CITATION.cff`.
 7. `python3 tools/kkpack.py build` создаст в `dist/` два архива и `SHA256SUMS`: устанавливаемый пакет (`..._full_...`) и архив для распаковки в корень Joomla с языком установщика (`..._root_...`). Отметьте выпуск тегом с версией пакета (`6.1.5.1`) и приложите оба файла.
+8. Дымовая проверка на чистой Joomla (необязательно, но рекомендуется): команды те же, что выше в английской части (установка Joomla из CLI, `extension:install`, казахский язык по умолчанию в параметрах `com_languages`, `live_site` в `configuration.php`, встроенный сервер PHP), затем `python3 tools/smoke_crawl.py --base http://127.0.0.1:8099 --user admin --password '...'`. Скрипт входит в админку, открывает около 80 экранов и сообщает об ошибках PHP, «сырых» языковых ключах и ответах не 200.

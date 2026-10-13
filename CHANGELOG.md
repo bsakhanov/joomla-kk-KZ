@@ -10,7 +10,9 @@
 - added `tools/kkpack.py` (status, check, sync, bump, build, fetch), `GLOSSARY.md`, trilingual README and CONTRIBUTING;
 - licence stated as GPL-2.0-or-later.
 
-Known limits: not proofread by a native speaker; no live installation test yet; about 270 inherited strings differ from the original in inline HTML markup.
+Checked on a clean Joomla 6.1.4 (PHP 8.3, MariaDB 10.11): the package installs with `extension:install`, 79 administrator and site screens open without PHP errors or raw keys, the web installer starts in Kazakh. Joomla's own distribution already carries a partial kk-KZ installer translation (249 of 262 keys in `joomla.ini`, 5 of 37 in `joomla.cli.ini`); the installer files of this pack are complete for 6.1.4.
+
+Known limits: not proofread by a native speaker; about 270 inherited strings differ from the original in inline HTML markup.
 
 **Русский.** Перевод доведён до конца: у всех ключей Joomla 6.1.4 есть казахские значения (раньше около 3 970 строк админки, 64 строки сайта и 30 строк API оставались русским текстом пакета JPath, а языка установщика не было).
 
@@ -20,7 +22,9 @@ Known limits: not proofread by a native speaker; no live installation test yet; 
 - добавлены `tools/kkpack.py` (status, check, sync, bump, build, fetch), `GLOSSARY.md`, трёхъязычные README и CONTRIBUTING;
 - лицензия указана как GPL-2.0-or-later.
 
-Известные ограничения: перевод не вычитан носителем языка; живой установки для проверки пока не было; около 270 унаследованных строк отличаются от оригинала встроенной HTML-разметкой.
+Проверено на чистой Joomla 6.1.4 (PHP 8.3, MariaDB 10.11): пакет ставится через `extension:install`, 79 экранов админки и сайта открывается без ошибок PHP и «сырых» ключей, веб-установщик запускается на казахском. В дистрибутив Joomla уже входит частичный казахский перевод установщика (249 из 262 ключей в `joomla.ini`, 5 из 37 в `joomla.cli.ini`); файлы установщика этого пакета полны для 6.1.4.
+
+Известные ограничения: перевод не вычитан носителем языка; около 270 унаследованных строк отличаются от оригинала встроенной HTML-разметкой.
 
 ## 6.1.4.1 — October 2026 · октябрь 2026 года
 
