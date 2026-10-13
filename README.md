@@ -61,7 +61,9 @@ The benchmark is expressions established in the language and the international a
 
 ## What is verified and what is not
 
-Verified by `tools/kkpack.py check`: in all 537 files the keys and their order equal the Joomla 6.1.4 original; no string uses more printf arguments or more `{VARIABLES}` than the original (that would break a PHP 8 page or leave raw variables in an email); there are no unescaped quotes; every file parses with PHP 8.3 `parse_ini_file` without errors.
+Verified by `tools/kkpack.py check`: in all 537 files the keys and their order equal the Joomla 6.1.4 original; no string uses more printf arguments or more variables of the `{NAME}` kind than the original (that would break a PHP 8 page or leave raw variables in an email); there are no unescaped quotes; every file parses with PHP 8.3 `parse_ini_file` without errors.
+
+The strings were also run through `kk_lint` of [kk-redkollegiya](https://github.com/bsakhanov/kk-redkollegiya) v0.4.5; the findings and their interpretation are in [docs/QA.md](docs/QA.md).
 
 Not verified: a live installation and a click-through of the administrator in Joomla 6, and proofreading by a native speaker. About 270 strings inherited from the earlier pack differ from the original in inline HTML (mostly dropped emphasis tags); they are tracked in the issues.
 
