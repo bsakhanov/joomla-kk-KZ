@@ -2,9 +2,9 @@
 <extension type="package" method="upgrade">
 	<name>Kazakh (kk-KZ) Language Pack</name>
 	<packagename>kk-KZ</packagename>
-	<version>6.1.4.2</version>
+	<version>6.1.4.3</version>
 	<creationDate>2026-10</creationDate>
-	<author>Webmarka · Beibit Sakhanov (на основе русского пакета JPath)</author>
+	<author>Sarvarov Akylkerey (official Kazakh translation); Beibit Sakhanov (Webmarka)</author>
 	<authorEmail>support@webmarka.kz</authorEmail>
 	<authorUrl>https://webmarka.kz</authorUrl>
 	<copyright>Copyright (C) 2005 - 2026 Open Source Matters, Inc.</copyright>
@@ -12,7 +12,7 @@
 	<url>https://github.com/joomla/joomla-cms</url>
 	<packager>Joomla! Project</packager>
 	<packagerurl>https://joomla.org</packagerurl>
-	<description><![CDATA[<h3 style='font-weight: 400'>Joomla 6.1.4 — қазақ тілінің пакеті (kk-KZ)</h3><p>Қазақ тілінің толық пакеті: басқару панелі, сайт және API. Орыс тілінің JPath пакеті (6.1.4.1) негізінде жасалды; барлық жолдар қазақ тіліне аударылған. Аударма ана тілін меңгерген маманның тексеруінен әлі өтпеген.</p><p>Complete Kazakh language pack: administrator, site and API. Based on the JPath Russian pack (6.1.4.1); all strings are translated. Not yet proofread by a native speaker.</p><p>Полный казахский языковой пакет: админка, сайт и API. Основа — русский пакет JPath (6.1.4.1); переведены все строки. Перевод не вычитан носителем языка.</p>]]></description>
+	<description><![CDATA[<h3 style='font-weight: 400'>Joomla 6.1.4 — қазақ тілінің пакеті (kk-KZ)</h3><p>Қазақ тілінің толық пакеті: басқару панелі, сайт және API. Бастапқы жолдар — Joomla 6.1.4 (en-GB). Қазақша мәтін ресми қазақ аудармасымен (Joomla аударма жұмыс тобы, аудармашы Акылкерей Сарваров) салыстырылған, оның бір бөлігі пайдаланылған. Аударма ана тілін меңгерген маманның тексеруінен әлі өтпеген.</p><p>Complete Kazakh language pack: administrator, site and API. Source strings: Joomla 6.1.4 (en-GB). Cross-checked against the official Kazakh translation (Joomla Translations Working Group, translator Akylkerey Sarvarov); part of its strings is used. Not yet proofread by a native speaker.</p><p>Полный казахский языковой пакет: админка, сайт и API. Исходные строки — Joomla 6.1.4 (en-GB). Текст сверен с официальным казахским переводом (рабочая группа по переводам Joomla, переводчик Акылкерей Сарваров), часть строк оттуда использована. Не вычитан носителем языка.</p>]]></description>
 	<blockChildUninstall>true</blockChildUninstall>
 	<files>
 		<folder type="language" client="administrator" id="kk-KZ">administrator/language/kk-KZ</folder>

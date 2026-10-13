@@ -1,7 +1,7 @@
 <?php
 /**
  * @package    Joomla.Language
- * @copyright  (C) 2026 Webmarka; основа — русский пакет JPath, Open Source Matters, Inc.
+ * @copyright  (C) 2026 Webmarka; Open Source Matters, Inc.; official Kazakh translation by Sarvarov Akylkerey (part of the strings)
  * @license    GNU General Public License version 2 or later
  */
 

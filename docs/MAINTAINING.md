@@ -22,6 +22,8 @@ The pack follows Joomla releases: the first three numbers of the version (6.1.4)
    ```
    The script logs in to the administrator, opens about 80 screens and reports PHP errors, raw language keys and non-200 answers.
 
+9. Compare with the official translation and look at the interface (see [OFFICIAL.md](OFFICIAL.md)): `python3 tools/kkpack.py official ...` re-applies the adoption list and rebuilds the review tables; `node tools/sidebar_check.js --base http://127.0.0.1:8099 --user admin --password '...'` (after `npm i @sparticuz/chromium puppeteer-core`) renders the administrator sidebar in headless Chromium and reports labels that wrap or push the «+» button to the next line.
+
 ## Русский
 
 Пакет идёт за выпусками Joomla: первые три числа версии (6.1.4) — версия Joomla, четвёртое — номер редакции перевода (6.1.4.2 — вторая редакция для Joomla 6.1.4).
@@ -34,3 +36,4 @@ The pack follows Joomla releases: the first three numbers of the version (6.1.4)
 6. `python3 tools/kkpack.py bump 6.1.5.1` запишет версию в манифесты; обновите `CHANGELOG.md` и `CITATION.cff`.
 7. `python3 tools/kkpack.py build` создаст в `dist/` два архива и `SHA256SUMS`: устанавливаемый пакет (`..._full_...`) и архив для распаковки в корень Joomla с языком установщика (`..._root_...`). Отметьте выпуск тегом с версией пакета (`6.1.5.1`) и опубликуйте его: workflow `Release assets` соберёт архивы и приложит их к релизу (для уже существующего тега запустите его вручную на вкладке Actions).
 8. Дымовая проверка на чистой Joomla (необязательно, но рекомендуется): команды те же, что выше в английской части (установка Joomla из CLI, `extension:install`, казахский язык по умолчанию в параметрах `com_languages`, `live_site` в `configuration.php`, встроенный сервер PHP), затем `python3 tools/smoke_crawl.py --base http://127.0.0.1:8099 --user admin --password '...'`. Скрипт входит в админку, открывает около 80 экранов и сообщает об ошибках PHP, «сырых» языковых ключах и ответах не 200.
+9. Сверка с официальным переводом и осмотр интерфейса (см. [OFFICIAL.md](OFFICIAL.md)): `python3 tools/kkpack.py official ...` заново применяет список заимствований и пересобирает таблицы для вычитки; `node tools/sidebar_check.js --base http://127.0.0.1:8099 --user admin --password '...'` (после `npm i @sparticuz/chromium puppeteer-core`) отрисовывает боковое меню админки в безголовом Chromium и сообщает о подписях, которые переносятся или сдвигают кнопку «+» на следующую строку.

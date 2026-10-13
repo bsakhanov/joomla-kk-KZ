@@ -1,5 +1,25 @@
 # Changelog · История изменений
 
+## 6.1.4.3 — 13 October 2026 · 13 октября 2026 года
+
+**English.** Feedback from a Kazakh Joomla specialist: some labels were too long and broke the look of the administrator, and the pack should not rest on the Russian JPath pack.
+
+- sidebar labels that did not fit next to the «+» button are shortened (the reported «Басқару панелінің модульдері» is now «Әкімші модульдері»; also the action log, user notes, consents, requests, capabilities); the layout is checked in a real browser with `tools/sidebar_check.js`;
+- the pack no longer says that it is based on the JPath Russian pack (manifests, README, citation, file headers): the source strings are the English files of Joomla 6.1.4, and the Kazakh text is checked against the official Kazakh translation of the Joomla Translations Working Group (Akylkerey Sarvarov), whose author is credited in the manifests;
+- 193 strings are taken from the official translation where the earlier text was demonstrably wrong (for example «Толығырақ» stood for New Banner, General, Edit Contact); 101 strings have the pack's own corrected wording; 534 values changed in total;
+- one term for «extension»: «кеңейтім» everywhere (it was mixed with «кеңейту» in 224 strings);
+- `tools/kkpack.py official`, [docs/OFFICIAL.md](docs/OFFICIAL.md), a table of 5,419 labels for a native-speaker review and a list of 80 defects of the official translation (31 strings that break PHP 8, 7 corrupted, 7 Russian, 26 mis-contextual labels; 61 more use the legacy `_QQ_` escape);
+- `docs/glossary-guard.txt`: official terms that conflict with the author's glossary («мәзір», «санат», «үлгі», «бүркеншік ат») are not taken.
+
+**Русский.** Замечания казахстанского специалиста по Joomla: часть подписей была слишком длинной и портила вид админки, а пакет не должен опираться на русский пакет JPath.
+
+- подписи бокового меню, не умещавшиеся рядом с кнопкой «+», сокращены («Басқару панелінің модульдері» из замечания теперь «Әкімші модульдері»; также журнал действий, заметки о пользователях, согласия, запросы, возможности); вёрстка проверяется в настоящем браузере скриптом `tools/sidebar_check.js`;
+- пакет больше не называет себя основанным на русском пакете JPath (манифесты, README, цитирование, заголовки файлов): исходные строки — английские файлы Joomla 6.1.4, а казахский текст сверен с официальным казахским переводом рабочей группы по переводам Joomla (Акылкерей Сарваров), автор указан в манифестах;
+- 193 строки взяты из официального перевода там, где прежний текст был заведомо неверным (например, «Толығырақ» стояло против New Banner, General, Edit Contact); у 101 строки собственная исправленная формулировка; всего изменено 534 значения;
+- один термин для «расширения»: везде «кеңейтім» (в 224 строках он мешался с «кеңейту»);
+- `tools/kkpack.py official`, [docs/OFFICIAL.md](docs/OFFICIAL.md), таблица из 5 419 подписей для вычитки носителем языка и список из 80 дефектов официального перевода (31 строка, роняющая PHP 8, 7 повреждённых, 7 русских, 26 подписей не из того контекста; ещё 61 со старым экранированием `_QQ_`);
+- `docs/glossary-guard.txt`: официальные термины, противоречащие глоссарию автора («мәзір», «санат», «үлгі», «бүркеншік ат»), не берутся.
+
 ## 6.1.4.2 — 13 October 2026 · 13 октября 2026 года
 
 **English.** The translation is complete: all keys of Joomla 6.1.4 now have Kazakh values (previously about 3 970 administrator strings, 64 site strings and 30 API strings were still the Russian text of the JPath pack, and the installer language was missing).

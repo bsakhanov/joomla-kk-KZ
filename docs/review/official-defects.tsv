@@ -1,0 +1,81 @@
+file	key	defect	official value
+com_banners.ini	COM_BANNERS_FIELD_CREATED_BY_LABEL	wrong context (too long)	«Сіз материал жасаған пайдаланушының атауын өзгертуге болады.»
+com_config.ini	COM_CONFIG_METADATA_SETTINGS	wrong context (too long)	«Соңғы баннерді өңдеудің күні мен уақыты».
+com_config.ini	COM_CONFIG_SENDMAIL_SUBJECT	defect: more printf arguments than the ori	%s ішіндегі поштаны тексеру
+com_config.ini	COM_CONFIG_SENDMAIL_SUCCESS_FALLBACK	defect: more printf arguments than the ori	Электрондық пошта %s <strong> %s </ strong> -ке жіберілді, бірақ <strong> %s </ strong> пайдаланып, сынақ электрондық поштасын алғаныңызды тексеріңіз.
+com_contact.ini	COM_CONTACT_CONTACT_ENTER_MESSAGE_LABEL	corrupted value	\"Хат\"\n; COM_CONTACT_CONTACT_ENTER_VALID_EMAIL=\"Дұрыс электронды мекен-жайыңызды көрсеткеніңіз абзал.\"\n;
+com_contact.ini	COM_CONTACT_COPYSUBJECT_OF	defect: more printf arguments than the ori	Көшірме: %s
+com_contact.ini	COM_CONTACT_COPYTEXT_OF	defect: more printf arguments than the ori	%s арқылы %s сіз жіберген хабардың көшірмесі
+com_contact.ini	COM_CONTACT_COUNT	defect: more printf arguments than the ori	\"Контакттар саны:\"\n; COM_CONTACT_COUNTRY=\"Мемлекет\"\n; COM_CONTACT_DEFAULT_PAGE_TITLE=\"Контактілер\"\n; COM_CONTACT_DETAILS=\"Контакт\"\n; COM_CONTACT_DOWNLOAD_INFORMATION_AS=\"Ақпаратты қалай ж
+com_contact.ini	COM_CONTACT_ERROR_CONTACT_NOT_FOUND	corrupted value	\"Контакт табылмады\"\n; COM_CONTACT_FAX=\"Факс\"\n;
+com_contact.ini	COM_CONTACT_FIELDSET_METADATA	wrong context (too long)	«Соңғы баннерді өңдеудің күні мен уақыты».
+com_contact.ini	COM_CONTACT_FILTER_LABEL	defect: more printf arguments than the ori	\"фильтр торы\"\n; COM_CONTACT_FILTER_SEARCH_DESC=\"Контакттарды фильрмен іздеу\"\n; COM_CONTACT_CONTACT_MESSAGE_SUBJECT_DESC=\"Хат тақырыбы .\"\n; COM_CONTACT_CONTACT_MESSAGE_SUBJECT_LABEL=\"Тақырыбы
+com_contact.ini	COM_CONTACT_PROFILE	corrupted value	\"Профайл\"\n; COM_CONTACT_PROFILE_HEADING=\"Контакт профайлы\"\n; COM_CONTACT_SELECT_CONTACT=\"Контактіні таңдаңыз:\"\n; COM_CONTACT_STATE=\"Облыс\"\n;
+com_content.ini	COM_CONTENT_FIELD_CREATED_BY_LABEL	wrong context (too long)	«Сіз материал жасаған пайдаланушының атауын өзгертуге болады.»
+com_content.ini	COM_CONTENT_METADATA	wrong context (too long)	«Соңғы баннерді өңдеудің күні мен уақыты».
+com_cpanel.ini	COM_CPANEL_MSG_ROBOTS_BODY	mixed script	Әдепкі бойынша, robots.txt файлдарға арналған өзгеріс Joomla 3.3-ге жіберілді, бұл Googleге SEO-ны жақсарту үшін шаблондар мен мультимедиа файлдарына кіруге мүмкіндік береді.Бұл өзгерістер жаңартуларғ
+com_finder.ini	COM_FINDER_FIELD_CREATED_BY_LABEL	wrong context (too long)	«Сіз материал жасаған пайдаланушының атауын өзгертуге болады.»
+com_finder.ini	COM_FINDER_HEADING_CREATED_BY	wrong context (too long)	«Сіз материал жасаған пайдаланушының атауын өзгертуге болады.»
+com_finder.ini	COM_FINDER_INDEX_PLUGIN_CONTENT_NOT_ENABLED	defect: more printf arguments than the ori	<a href="_QQ_"%s"_QQ_"> Smart Search Content Plugin </a> өшірілген, егер бұл плагинді қоспаған болсаңыз, мазмұнға жасалған өзгерістер Smart Search индексін жаңартпайды.
+com_finder.ini	COM_FINDER_QUERY_TAXONOMY_NODE	Russian word	с <span class="_QQ_"node"_QQ_">%s</span> как <span class="_QQ_"branch"_QQ_">%s</span> 
+com_installer.ini	COM_INSTALLER_MSG_WARNINGS_LOWMEMORYWARN	wrong context (too long)	Сізде үлкен кеңейтімдерді орнатқан кезде кейбір проблемалар тудыруы мүмкін сіздің PHP жад шегіңіз 8МБ төменірек орнатылған. Жады шектеулерін кемінде 16 Мб етіп орнатыңыз.
+com_installer.ini	COM_INSTALLER_MSG_WARNINGS_MEDMEMORYWARN	wrong context (too long)	Сіздің PHP жад шегіңіз 16MB төмен орналасқан, ол үлкен кеңейтімдерді орнатқан кезде кейбір ақаулар тудыруы мүмкін. Жады шектеулерін кем дегенде 16 Мб етіп орнатыңыз.
+com_media.ini	COM_MEDIA_ERROR_FILE_EXISTS	wrong context (too long)	Қалтаны жасау мүмкін емес. Қалта атауы тек әріптік-сандық таңбаларды және бос орындарды ғана қамтуы керек.
+com_media.ini	COM_MEDIA_PIXEL_DIMENSIONS	mixed script	Өлшемдер (Е&nbspх&nbspБ), &nbspпиксельмен
+com_messages.ini	COM_MESSAGES_FIELD_MESSAGE_LABEL	corrupted value	\"Хат\"\n; COM_CONTACT_CONTACT_ENTER_VALID_EMAIL=\"Дұрыс электронды мекен-жайыңызды көрсеткеніңіз абзал.\"\n;
+com_messages.ini	COM_MESSAGES_NEW_MESSAGE	defect: more printf arguments than the ori	%2$s ішіндегі %1$s-ден жаңа хабар
+com_newsfeeds.ini	COM_NEWSFEEDS_FILTER_LABEL	defect: more printf arguments than the ori	\"фильтр торы\"\n; COM_CONTACT_FILTER_SEARCH_DESC=\"Контакттарды фильрмен іздеу\"\n; COM_CONTACT_CONTACT_MESSAGE_SUBJECT_DESC=\"Хат тақырыбы .\"\n; COM_CONTACT_CONTACT_MESSAGE_SUBJECT_LABEL=\"Тақырыбы
+com_privacy.ini	COM_PRIVACY_EMAIL_ADMIN_REQUEST_BODY_EXPORT_REQUEST	mixed script	[URL] Үшін әкімші осы электрондық пошта мекенжайына қатысты жеке ақпаратты экспорттау туралы сұрауды жасады. Қауіпсіздік шарасы ретінде бұл сіздің жеке ақпаратыңыздың осы веб-сайттан жарамды болып таб
+com_privacy.ini	COM_PRIVACY_EMAIL_ADMIN_REQUEST_BODY_REMOVE_REQUEST	mixed script	[URL] үшін әкімші осы электрондық пошта мекенжайына қатысты барлық жеке деректерді жою туралы сұрауды жасады. Қауіпсіздік шарасы ретінде бұл сіздің жеке ақпаратыңыздың осы веб-сайттан алынып тасталуы 
+com_templates.ini	COM_TEMPLATES_TAB_EDITOR	wrong context (too long)	Пайдаланушы үшін электрондық пошта мекенжайын енгізіңіз.
+com_users.ini	COM_USERS_CONFIG_FIELD_CHANGEUSERNAME_LABEL	wrong context (too long)	Пайдаланушыны өзгерту <br /> <br /> <strong> * </ strong> барлық домендерге рұқсат береді немесе тыйым салады. <br /> <strong> *.com </ strong> <br /> <br /> <strong> *joomla.org </ strong> барлық joo
+com_users.ini	COM_USERS_EMAIL_ACCOUNT_DETAILS	defect: more printf arguments than the ori	%s үшін %s сайтындағы тіркеу жазбасының параметрлері
+com_users.ini	COM_USERS_EMAIL_ACTIVATED_BY_ADMIN_ACTIVATION_BODY	defect: more printf arguments than the ori	Сәлеметсіз бе %s,\n\nЕнді сіздің тіркеу жазбаңыз белсенді. Сіз сайтқа өз атыңызбен кіре аласыз «%s». Сіздің логиніңіз %s. Тіркеу жазбасының құпия сөзі ретінде сіз тіркелгенде көрсеткен құпия сөз қойыл
+com_users.ini	COM_USERS_EMAIL_ACTIVATED_BY_ADMIN_ACTIVATION_SUBJECT	defect: more printf arguments than the ori	%s қолдануышысының %s сайтындағы тіркеу жазбасы енді  белсенді 
+com_users.ini	COM_USERS_EMAIL_ACTIVATE_WITH_ADMIN_ACTIVATION_BODY	defect: more printf arguments than the ori	Сәлеметсіз бе, құрметті администратор!\n\nСайтта жаңа пайдаланушы тіркелді «%s».\n Қолданушы e-mail-інің дұрыс екенін растады және оның қолданушы жазбасын белсенді етуіңізді сұрайды.\nБұл хат оның тір
+com_users.ini	COM_USERS_EMAIL_ACTIVATE_WITH_ADMIN_ACTIVATION_SUBJECT	defect: more printf arguments than the ori	%s қолдануышысының %s сайтындағы тіркеу жазбасын белсенді етуге сұраныс
+com_users.ini	COM_USERS_EMAIL_PASSWORD_RESET_BODY	defect: more printf arguments than the ori	Сәлеметсіз бе ,\n\n %s сайтында сіздің тіркеу жазбаңыздың құпия сөзін қайта еске салу туралы сұраныс келіп түсті. Құпия сөзді өзгерту үшін төменде көрсетілген растау кодын енгізуіңіз қажет..\n\nРастау
+com_users.ini	COM_USERS_EMAIL_PASSWORD_RESET_SUBJECT	defect: more printf arguments than the ori	%s сайтында құпия сөзді өзгерту туралы сұраныс
+com_users.ini	COM_USERS_EMAIL_REGISTERED_BODY	defect: more printf arguments than the ori	Сәлеметсіз бе %s,\n\n %s сайтында тіркелгеніңіз үшін рақмет.\n\nЕнді сіз %s сайтына тіркелгенде көрсеткен логин мен құпия сөзді қолданып кіре аласыз.
+com_users.ini	COM_USERS_EMAIL_REGISTERED_BODY_NOPW	defect: more printf arguments than the ori	Сәлеметсіз бе %s, \ n\ n %s тіркеу үшін рахмет.\n\n енді сіз тіркелу кезінде көрсетілген логин мен пароль арқылы %s-ға кіре аласыз.
+com_users.ini	COM_USERS_EMAIL_REGISTERED_NOTIFICATION_TO_ADMIN_BODY	defect: more printf arguments than the ori	Сәлеметсіз бе, құрметті администратор, \n\n '%s', логин '%s' деген жаңа қолданушы %s сайтында тіркелді.
+com_users.ini	COM_USERS_EMAIL_REGISTERED_WITH_ACTIVATION_BODY	defect: more printf arguments than the ori	Сәлеметсіз бе, %s,\n\n «%s» сайтында тіркелгеніңіз үшін рақмет. Сіздің тіркелу жазбаңыз сайтта тіркелді, бірақ та оны қолдану үшін белсенді ету қажет.\nТіркелу жазбасын белсенді ету үшін төмендегі сіл
+com_users.ini	COM_USERS_EMAIL_REGISTERED_WITH_ACTIVATION_BODY_NOPW	defect: more printf arguments than the ori	Сәлеметсіз бе, %s,\n\n %s сайтында тіркелгеніңіз үшін Алғыс білдіреміз. Тіркелгіңіз жасалған, бірақ сіз оны пайдалану үшін ол іске қосылуы керек.\n Есептік жазбаны іске қосу үшін төмендегі сілтемеге ө
+com_users.ini	COM_USERS_EMAIL_REGISTERED_WITH_ADMIN_ACTIVATION_BODY	defect: more printf arguments than the ori	Сәлеметсіз бе %s,\n\n«%s» сайтында тіркелгеніңіз үшін рақмет.Сіздің тіркелу жазбаңыз сайтта тіркелді, бірақ та оны қолдану үшін тексерілуі қажет.\nТіркелу жазбасын растау үшін төмендегі сілтеме бойынш
+com_users.ini	COM_USERS_EMAIL_REGISTERED_WITH_ADMIN_ACTIVATION_BODY_NOPW	defect: more printf arguments than the ori	Сәлеметсіз бе %s,\n\n %s сайтында тіркелгеніңіз үшін Алғыс білдіреміз. Тіркелгіңіз жасалған, бірақ сіз оны пайдаланбас бұрын тексерілуі керек. \n тіркелгіңізді растау үшін төмендегі сілтемеге өтіңіз н
+com_users.ini	COM_USERS_EMAIL_USERNAME_REMINDER_BODY	defect: more printf arguments than the ori	Сәлеметсіз бе,\n\n «%s» сайтында сіздің тіркеу жазбаңыздың логинін еске түсіру туралы сұраныс жасалды..\n\Сіздің  логиныңыз: %s.\n\nӨз тіркеу жазбаңыз арқылы сайтқа кіру үшін төмендегі сілтеме бойынша
+com_users.ini	COM_USERS_EMAIL_USERNAME_REMINDER_SUBJECT	defect: more printf arguments than the ori	%s Сайтында логинды еске түсіру
+com_users.ini	COM_USERS_HEADING_MFA	wrong context (too long)	Көп факторлы аутентификация
+com_users.ini	COM_USERS_MAIL_FIELD_MESSAGE_LABEL	corrupted value	\"Хат\"\n; COM_CONTACT_CONTACT_ENTER_VALID_EMAIL=\"Дұрыс электронды мекен-жайыңызды көрсеткеніңіз абзал.\"\n;
+com_users.ini	COM_USERS_MAIL_SEND_FAILURE_BODY	defect: more printf arguments than the ori	Тіркелу туралы ақпараттарды қамтитын хаты  жіберу кезінде қателік кетті: %s Хат келесі қолданушыға арналған еді: %s
+com_users.ini	COM_USERS_PROFILE_CORE_LEGEND	corrupted value	\"Профайл\"\n; COM_CONTACT_PROFILE_HEADING=\"Контакт профайлы\"\n; COM_CONTACT_SELECT_CONTACT=\"Контактіні таңдаңыз:\"\n; COM_CONTACT_STATE=\"Облыс\"\n;
+com_users.ini	COM_USERS_REMIND_REQUEST_FAILED	wrong context (too long)	Мәліметтерді еске түсіру мүмкін болмады. Сіз енгізген электронды пошта мекен-жайының дұрыстығына көз жеткізіңіз.
+com_users.ini	COM_USERS_USER_FIELD_BACKEND_LANGUAGE_LABEL	wrong context (too long)	Administrator Backend интерфейсі үшін үлгі мәнерін таңдаңыз. Бұл тек осы Пайдаланушыға әсер етеді.
+com_users.ini	COM_USERS_USER_FIELD_EDITOR_LABEL	wrong context (too long)	Пайдаланушы үшін электрондық пошта мекенжайын енгізіңіз.
+joomla.ini	INSTL_DATABASE_NAME_DESC	wrong context (too long)	Кейбір хосттар әр сайтқа белгілі бір DB атауын ғана береді. Бұл жағдайда Joomla сайттар Үшін ерекше кесте префиксін қолданыңыз!
+joomla.ini	INSTL_PRECHECK_DESC	Russian word	Если любой из этих параметров не поддерживается (выделен как <strong class="_QQ_"label label-important"_QQ_">Нет</strong>), то настройки вашей системы не соответствуют минимально необходимым требовани
+joomla.ini	JACTION_COMPONENT_SETTINGS	mixed script	компоненттiң параметрлерi
+joomla.ini	JACTION_LOGIN_SITE	mixed script	Сайтқа кiру
+joomla.ini	JEDITOR	wrong context (too long)	Пайдаланушы үшін электрондық пошта мекенжайын енгізіңіз.
+joomla.ini	JERROR_NO_ITEMS_SELECTED	wrong context (too long)	«Логин қабылданбады! Есептік жазбаңыз бұғатталған немесе әлі белсендірілмеген.»
+joomla.ini	JFIELD_LOGOUT_REDIRECT_PAGE_LABEL	Russian word	Перенаправление при выходе
+joomla.ini	JFIELD_META_DESCRIPTION_DESC	wrong context (too long)	HTML-беттің сипаттамасы ретінде қолданылатын енгізу міндетті емес мәтін. Бұл мәтінді іздеу жүйелері мен роботтары іздеу қорытындысын шығару кезінде беттің сипттамасы ретінде қолданады.
+joomla.ini	JFIELD_PASSWORD_SPACES_IN_PASSWORD	Russian word	Пароль не должен содержать пробелов в начале или конце.
+joomla.ini	JGLOBAL_FIELDSET_METADATA_OPTIONS	wrong context (too long)	«Соңғы баннерді өңдеудің күні мен уақыты».
+joomla.ini	JGLOBAL_FIELD_CREATED_BY_LABEL	wrong context (too long)	«Сіз материал жасаған пайдаланушының атауын өзгертуге болады.»
+joomla.ini	JGLOBAL_FILTER_FIELD_LABEL	defect: more printf arguments than the ori	\"фильтр торы\"\n; COM_CONTACT_FILTER_SEARCH_DESC=\"Контакттарды фильрмен іздеу\"\n; COM_CONTACT_CONTACT_MESSAGE_SUBJECT_DESC=\"Хат тақырыбы .\"\n; COM_CONTACT_CONTACT_MESSAGE_SUBJECT_LABEL=\"Тақырыбы
+joomla.ini	JGLOBAL_FILTER_GROUPS_DESC	defect: more printf arguments than the ori	\"фильтр торы\"\n; COM_CONTACT_FILTER_SEARCH_DESC=\"Контакттарды фильрмен іздеу\"\n; COM_CONTACT_CONTACT_MESSAGE_SUBJECT_DESC=\"Хат тақырыбы .\"\n; COM_CONTACT_CONTACT_MESSAGE_SUBJECT_LABEL=\"Тақырыбы
+joomla.ini	JGLOBAL_FILTER_TAGS_LABEL	wrong context (too long)	Сүзгілер Tags <sup> 2 </ sup><br /> <strong> - </ strong> Әдепкі Қара тізімге арналған тегтер: 'applet', 'body', 'bgsound', 'body', 'body', ' 'base', 'basefont', 'canvas', 'embed', 'frame', 'frameset'
+joomla.ini	MESSAGE	corrupted value	\"Хат\"\n; COM_CONTACT_CONTACT_ENTER_VALID_EMAIL=\"Дұрыс электронды мекен-жайыңызды көрсеткеніңіз абзал.\"\n;
+joomla.ini	WED	mixed script	«Cәp»
+lib_joomla.ini	JLIB_MAIL_INVALID_EMAIL_SENDER	defect: more printf arguments than the ori	JMail: : Жарамсыз электрондық пошта жіберуші: %s, JMail: :setSender( %s).
+mod_languages.ini	MOD_LANGUAGES_XML_DESCRIPTION	Russian word	Этот модуль выводит список доступных языков содержимого (которые опубликованы в Менеджере языков) и позволяет переключаться между ними. Модуль используется в том случае, если на сайте задействована си
+mod_languages.sys.ini	MOD_LANGUAGES_XML_DESCRIPTION	Russian word	Этот модуль выводит список доступных языков содержимого (которые опубликованы в Менеджере языков) и позволяет переключаться между ними. Модуль используется в том случае, если на сайте задействована си
+mod_latest.ini	MOD_LATEST_CREATED_BY	wrong context (too long)	«Сіз материал жасаған пайдаланушының атауын өзгертуге болады.»
+mod_login.ini	MOD_LOGIN_FIELD_LOGOUT_REDIRECTURL_LABEL	Russian word	Перенаправление при выходе
+mod_popular.ini	MOD_POPULAR_TITLE	defect: more printf arguments than the ori	Танымал мақалалар %1$s 
+plg_editors_tinymce.ini	PLG_TINY_SET_SOURCE_PANEL_DESCRIPTION	wrong context (too long)	<strong> Қолжетімді барлық мәзірлер мен түймелер. </ Strong> <br /> Өзіңіздің пайдаланушылық TinyMCE панелін өңдеу немесе жасау үшін оларды пайдаланыңыз (апарып тастаңыз).
+plg_system_cache.ini	PLG_CACHE_FIELD_BROWSERCACHE_LABEL	wrong context (too long)	Браузерді кэштеуді пайдалану '<br /> <br /> <br /> <strong> туралы \ - [az] + </ strong> - бұл барлық URL мекенжайларын шығарып тастайды. <br /> <br /> <strong> / component / users / </ strong> - мыса
+plg_system_httpheaders.ini	PLG_SYSTEM_HTTPHEADERS_HSTS_PRELOAD_NOTE_DESC	mixed script	HSTS сіздің доменіңізді HTTPSсіз шақыру мүмкін емес дегенді білдіреді. Алдын ала жүктеу тізіміне қосылғаннан кейін оны қайтару оңай емес. Домендерді жоюға болады, бірақ пайдаланушыларға браузерді жаңа
+plg_task_privacyconsent.ini	PLG_TASK_PRIVACYCONSENT_EMAIL_REMIND_BODY	mixed script	[URL] мекенжайында берілген Құпиялылық келісіміңіз бірнеше күннің ішінде аяқталады, осы веб-сайттың құпиялылық келісімін жаңарта аласыз. \ N \ nОны орындау үшін келесі тапсырмалардың бірін орындауға б
+plg_user_joomla.ini	PLG_USER_JOOMLA_NEW_USER_EMAIL_BODY	defect: more printf arguments than the ori	Hello %s, \ n \ n \ nӘкімші тарапынан %s пайдаланушысы ретінде қосылды. \ N \ n Бұл электронды поштаға %s \ n \ n кіру үшін пайдаланушы аты мен құпия сөзі бар. \ N \ nUsername: %s \ nPassword: %s \ n 

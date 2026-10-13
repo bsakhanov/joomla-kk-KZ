@@ -1,0 +1,103 @@
+# client/file/KEY<TAB>value<TAB>reason. Deliberate wording of the pack; it wins over the official translation.
+administrator/com_actionlogs.ini/COM_ACTIONLOGS	Әрекеттер журналы	curated
+administrator/com_actionlogs.ini/COM_ACTIONLOGS_EXPORT_ALL_CSV	Барлығын CSV-ға экспорттау	curated
+administrator/com_actionlogs.ini/COM_ACTIONLOGS_MANAGER_USERLOGS	Әрекеттер журналы	curated
+administrator/com_actionlogs.sys.ini/COM_ACTIONLOGS	Әрекеттер журналы	curated
+administrator/com_admin.ini/COM_ADMIN_HELP_CONTACTS	Байланыстар	curated
+administrator/com_admin.ini/COM_ADMIN_HELP_MAINTENANCE:_GLOBAL_CHECK-IN	Жалпы блоктан шығару	curated
+administrator/com_banners.ini/COM_BANNERS_BANNER_DETAILS	Мәліметтер	curated
+administrator/com_banners.ini/COM_BANNERS_EDIT_CLIENT	Мәліметтер	curated
+administrator/com_banners.ini/COM_BANNERS_HEADING_COUNT	Саны	curated
+administrator/com_checkin.sys.ini/COM_CHECKIN_CHECKIN_VIEW_DEFAULT_TITLE	Жалпы блоктан шығару	curated
+administrator/com_contact.ini/COM_CONTACT	Байланыстар	curated
+administrator/com_contact.ini/COM_CONTACT_BASIC_OPTIONS_FIELDSET_LABEL	Байланысты көрсету параметрлері	curated
+administrator/com_contact.ini/COM_CONTACT_CONTACTS	Байланыстар	curated
+administrator/com_contact.ini/COM_CONTACT_CONTACT_DETAILS	Мәліметтер	curated
+administrator/com_contact.ini/COM_CONTACT_FIELD_ICONS_SETTINGS_LABEL	Параметрлер	curated
+administrator/com_contact.ini/COM_CONTACT_FIELD_VALUE_ORDERING	Реттеу	curated
+administrator/com_contact.ini/COM_CONTACT_MANAGER_CONTACTS	Байланыстар	curated
+administrator/com_contact.ini/COM_CONTACT_N_QUICKICON	Байланыстар	curated
+administrator/com_contact.ini/COM_CONTACT_SELECT_CONTACT_LABEL	Байланысты таңдау	curated
+administrator/com_contact.ini/COM_CONTACT_SUBMENU_CONTACTS	Байланыстар	curated
+administrator/com_contact.ini/COM_CONTACT_TABLE_CAPTION	Байланыстар	curated
+administrator/com_contact.ini/COM_CONTACT_UNFEATURED	Таңдаулы емес байланыс	curated
+administrator/com_contact.sys.ini/COM_CONTACT	Байланыстар	curated
+administrator/com_contact.sys.ini/COM_CONTACT_CONTACTS	Байланыстар	curated
+administrator/com_content.ini/COM_CONTENT_SHOW_ARTICLE_OPTIONS_LABEL	Мақала параметрлері	curated
+administrator/com_fields.ini/COM_FIELDS_FIELD_EDITABLE_IN_LABEL	Өңдеу орны	curated
+administrator/com_finder.ini/COM_FINDER_INDEX_HEADING_DETAILS	Мәліметтер	curated
+administrator/com_finder.ini/COM_FINDER_STATISTICS_LINK_TYPE_COUNT	Саны	curated
+administrator/com_guidedtours.ini/COM_GUIDEDTOURS_EDIT_TOUR	Турды өңдеу	curated
+administrator/com_guidedtours.ini/COM_GUIDEDTOURS_FIELD_VALUE_STEP_TYPE_NEXT	Келесі	curated
+administrator/com_guidedtours.ini/COM_GUIDEDTOURS_STEP_EDIT_STEP	Қадамды өңдеу	curated
+administrator/com_installer.ini/COM_INSTALLER_LANGUAGES_AVAILABLE_LANGUAGES	Қолжетімді тілдер	curated
+administrator/com_installer.ini/COM_INSTALLER_LANGUAGES_TABLE_CAPTION	Қолжетімді тілдер	curated
+administrator/com_installer.ini/COM_INSTALLER_TOOLBAR_FIND_UPDATES	Жаңартуларды тексеру	curated
+administrator/com_installer.ini/COM_INSTALLER_UPDATESITE_DISABLED	Өшірілген жаңарту сайты	curated
+administrator/com_joomlaupdate.ini/COM_JOOMLAUPDATE_CONFIG_SOURCES_LABEL	Жаңарту көзі	curated
+administrator/com_joomlaupdate.ini/COM_JOOMLAUPDATE_TOOLBAR_CHECK	Жаңартуларды тексеру	curated
+administrator/com_menus.ini/COM_MENUS_ITEM_DETAILS	Мәліметтер	curated
+administrator/com_messages.ini/COM_MESSAGES_FIELD_USER_ID_FROM_LABEL	Кімнен	curated
+administrator/com_messages.ini/COM_MESSAGES_HEADING_FROM	Кімнен	curated
+administrator/com_newsfeeds.ini/COM_NEWSFEEDS_FIELDSET_MORE_OPTIONS_LABEL	Таспаны көрсету параметрлері	curated
+administrator/com_newsfeeds.ini/COM_NEWSFEEDS_FIELD_SELECT_FEED_LABEL	Таспа	curated
+administrator/com_newsfeeds.sys.ini/COM_NEWSFEEDS_NEWSFEED_VIEW_DEFAULT_TITLE	Бір жаңалықтар таспасы	curated
+administrator/com_privacy.ini/COM_PRIVACY_HEADING_CONSENTS_BODY	Мәтін	curated
+administrator/com_privacy.sys.ini/COM_PRIVACY_DASHBOARD_VIEW_DEFAULT_TITLE	Жеке деректер: басқару панелі	curated
+administrator/com_tags.sys.ini/COM_TAGS_CONTENT_TYPE_USER_NOTES	Пайдаланушы жазбалары	curated
+administrator/com_users.ini/COM_USERS_ASSIGNED_GROUPS	Тағайындалған пайдаланушы топтары	curated
+administrator/com_users.ini/COM_USERS_MAIL_DETAILS	Мәліметтер	curated
+administrator/com_users.ini/COM_USERS_NOTES_TABLE_CAPTION	Пайдаланушы жазбалары	curated
+administrator/com_users.ini/COM_USERS_SETTINGS_FIELDSET_LABEL	Негізгі параметрлер	curated
+administrator/com_users.ini/COM_USERS_SUBMENU_NOTES	Пайдаланушы жазбалары	curated
+administrator/com_users.ini/COM_USERS_USERGROUP_DETAILS	Пайдаланушы тобының мәліметтері	curated
+administrator/com_users.ini/COM_USERS_USER_GROUPS_HAVING_ACCESS	Көру құқығы бар пайдаланушы топтары	curated
+administrator/com_users.sys.ini/COM_USERS_CONTENT_TYPE_NOTE	Пайдаланушы жазбалары	curated
+administrator/com_users.sys.ini/COM_USERS_MENUS_NOTES	Пайдаланушы жазбалары	curated
+administrator/com_users.sys.ini/COM_USERS_NOTES_VIEW_DEFAULT_TITLE	Пайдаланушы жазбалары	curated
+administrator/com_workflow.sys.ini/COM_WORKFLOW_WORKFLOWS_VIEW_DEFAULT_TITLE	Барлық үдерістердің тізімі	curated
+administrator/joomla.ini/JDETAILS	Мәліметтер	curated
+administrator/joomla.ini/JGLOBAL_ALLOW_COMMENTS_LABEL	Пікірлерге рұқсат беру	curated
+administrator/joomla.ini/JGLOBAL_ARCHIVE_ARTICLES_FIELD_INTROTEXTLIMIT_LABEL	Кіріспе мәтін шегі	curated
+administrator/joomla.ini/JGLOBAL_ARTICLE_MANAGER_ORDER	Реттеу	curated
+administrator/joomla.ini/JGLOBAL_FIELDSET_GLOBAL	Негізгі параметрлер	curated
+administrator/joomla.ini/JGLOBAL_FILTER_GROUPS_LABEL	Топтар бойынша сүзгі	curated
+administrator/joomla.ini/JGLOBAL_ITEM_UNFEATURE	Таңдаулылардан алып тастау	curated
+administrator/joomla.ini/JGLOBAL_NUM_LEADING_ARTICLES_LABEL	# басты мақалалар	curated
+administrator/joomla.ini/JGLOBAL_SECRETKEY	Құпия кілт	curated
+administrator/joomla.ini/JTOOLBAR_SAVE_TO_MENU_AS_BLOG	Менюге блог ретінде сақтау	curated
+administrator/joomla.ini/JTOOLBAR_SAVE_TO_MENU_AS_LIST	Менюге тізім ретінде сақтау	curated
+administrator/joomla.ini/JUNFEATURE	Таңдаулылардан алу	curated
+administrator/joomla.ini/JUNFEATURED	Таңдаулы емес	curated
+administrator/joomla.ini/JWORKFLOW_ENABLED_LABEL	Үдерісті қосу	curated
+administrator/mod_menu.ini/MOD_MENU_ACCESS_SETTINGS	Параметрлер	curated
+administrator/mod_menu.ini/MOD_MENU_COM_ACTIONLOGS	Әрекеттер журналы	curated
+administrator/mod_menu.ini/MOD_MENU_COM_LANGUAGES_SUBMENU_OVERRIDES	Қайта анықтау	curated
+administrator/mod_menu.ini/MOD_MENU_COM_PRIVACY_CONSENTS	Келісімдер	curated
+administrator/mod_menu.ini/MOD_MENU_GLOBAL_CHECKIN	Жалпы блоктан шығару	curated
+administrator/mod_menu.ini/MOD_MENU_HELP_DEVELOPER	Әзірлеуші ресурстары	curated
+administrator/mod_quickicon.ini/MOD_QUICKICON_CONTACT_MANAGER	Байланыстар	curated
+administrator/mod_quickicon.ini/MOD_QUICKICON_SHOW_WORKFLOW_LABEL	Үдерістер белгішесі	curated
+administrator/plg_editors_tinymce.ini/PLG_TINY_FIELD_SETACCESS_LABEL	Бұл жинақты тағайындау	curated
+administrator/plg_finder_contacts.ini/PLG_FINDER_QUERY_FILTER_BRANCH_P_CONTACT	Байланыстар	curated
+administrator/plg_task_globalcheckin.ini/PLG_TASK_GLOBALCHECKIN_TITLE	Жалпы блоктан шығару	curated
+api/joomla.ini/JDETAILS	Мәліметтер	curated
+api/joomla.ini/JGLOBAL_ALLOW_COMMENTS_LABEL	Пікірлерге рұқсат беру	curated
+api/joomla.ini/JGLOBAL_ARCHIVE_ARTICLES_FIELD_INTROTEXTLIMIT_LABEL	Кіріспе мәтін шегі	curated
+api/joomla.ini/JGLOBAL_ARTICLE_MANAGER_ORDER	Реттеу	curated
+api/joomla.ini/JGLOBAL_FIELDSET_GLOBAL	Негізгі параметрлер	curated
+api/joomla.ini/JGLOBAL_FILTER_GROUPS_LABEL	Топтар бойынша сүзгі	curated
+api/joomla.ini/JGLOBAL_ITEM_UNFEATURE	Таңдаулылардан алып тастау	curated
+api/joomla.ini/JGLOBAL_NUM_LEADING_ARTICLES_LABEL	# басты мақалалар	curated
+api/joomla.ini/JGLOBAL_SECRETKEY	Құпия кілт	curated
+api/joomla.ini/JUNFEATURE	Таңдаулылардан алу	curated
+api/joomla.ini/JUNFEATURED	Таңдаулы емес	curated
+api/joomla.ini/JWORKFLOW_ENABLED_LABEL	Үдерісті қосу	curated
+site/com_contact.ini/COM_CONTACT_DEFAULT_PAGE_TITLE	Байланыстар	curated
+site/com_contact.ini/COM_CONTACT_TABLE_CAPTION	Байланыстар	curated
+site/com_users.ini/COM_USERS_SETTINGS_FIELDSET_LABEL	Негізгі параметрлер	curated
+site/joomla.ini/JDETAILS	Мәліметтер	curated
+site/joomla.ini/JGLOBAL_SECRETKEY	Құпия кілт	curated
+site/mod_articles_category.ini/MOD_ARTICLES_CATEGORY_FIELD_COUNT_LABEL	Саны	curated
+site/mod_articles_news.ini/MOD_ARTICLES_NEWS_FIELD_ORDERING_ORDERING	Реттеу	curated
+administrator/mod_menu.ini/MOD_MENU_EXTENSIONS_MODULE_MANAGER_ADMINISTRATOR	Әкімші модульдері	curated: sidebar fit (28 characters did not fit next to the plus icon)

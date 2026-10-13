@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile client="installation">
 	<name>Kazakh (kk-KZ)</name>
-	<version>6.1.4.2</version>
+	<version>6.1.4.3</version>
 	<creationDate>2026-10</creationDate>
-	<author>Webmarka · Beibit Sakhanov (на основе русского пакета JPath)</author>
+	<author>Sarvarov Akylkerey (official Kazakh translation); Beibit Sakhanov (Webmarka)</author>
 	<authorEmail>support@webmarka.kz</authorEmail>
 	<authorUrl>https://webmarka.kz</authorUrl>
 	<copyright>Copyright (C) 2005 - 2026 Open Source Matters, Inc.</copyright>

@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: Sakhanov
     given-names: Beibit
-version: "6.1.4.2"
+version: "6.1.4.3"
 date-released: "2026-10-13"
 license: GPL-2.0-or-later
 repository-code: "https://github.com/bsakhanov/joomla-kk-KZ"
@@ -19,7 +19,8 @@ keywords:
   - localisation
 references:
   - type: software
-    title: "Russian localisation of Joomla (ru-RU)"
+    title: "Joomla core translations: Kazakh (kk-KZ), official translation"
     authors:
-      - name: "JPathRu"
-    url: "https://github.com/JPathRu/localisation"
+      - family-names: Sarvarov
+        given-names: Akylkerey
+    url: "https://github.com/joomla/core-translations"

@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Joomla translation team (JPathRu, Russian pack)
-    url: https://github.com/JPathRu/localisation
-    about: Model for this project and the source of the base translation
+  - name: Official Joomla translations (Crowdin)
+    url: https://joomla.crowdin.com/cms
+    about: Problems in the official Kazakh translation should be reported here
