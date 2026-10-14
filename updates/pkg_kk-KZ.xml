@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Сервер обновлений казахского языкового пакета. Новую версию добавляйте сверху; targetplatform — версия Joomla, под которую собран перевод. -->
+<updates>
+    <update>
+        <name>Kazakh (kk-KZ) Language Pack</name>
+        <description>Қазақ тілінің пакеті — Joomla 6.2</description>
+        <element>pkg_kk-KZ</element>
+        <type>package</type>
+        <version>6.2.0.2</version>
+        <infourl title="kk-KZ 6.2.0.2">https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/6.2.0.2</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/bsakhanov/joomla-kk-KZ/releases/download/6.2.0.2/kk-KZ_joomla_lang_full_6.2.0v2.zip</downloadurl>
+        </downloads>
+        <tags><tag>stable</tag></tags>
+        <maintainer>Beibit Sakhanov</maintainer>
+        <maintainerurl>https://webmarka.kz</maintainerurl>
+        <targetplatform name="joomla" version="6\.2"/>
+    </update>
+</updates>

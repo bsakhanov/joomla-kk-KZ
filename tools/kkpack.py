@@ -218,7 +218,7 @@ def cmd_build(a):
     ver = pkg_version(); joomla, rev = ver.rsplit('.', 1)
     dist = ROOT / 'dist'; dist.mkdir(exist_ok=True)
     stamp = time.gmtime()[:6]
-    sets = [('kk-KZ_joomla_lang_full_%sv%s.zip' % (joomla, rev), ['pkg_kk-KZ.xml', 'administrator', 'api', 'language']),
+    sets = [('kk-KZ_joomla_lang_full_%sv%s.zip' % (joomla, rev), ['pkg_kk-KZ.xml', 'script.php', 'administrator', 'api', 'language']),
             ('kk-KZ_joomla_lang_root_%sv%s.zip' % (joomla, rev), ['administrator', 'api', 'language', 'installation'])]
     sums = []
     for name, parts in sets:

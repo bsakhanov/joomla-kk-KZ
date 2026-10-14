@@ -1,5 +1,19 @@
 # Changelog · История изменений
 
+## 6.2.0.2 — 14 October 2026 · 14 октября 2026 года
+
+**English.** Feedback from a site owner (Joomla 6.2, PHP 8.3, MariaDB 11): after installing the pack and making Kazakh the default site language, the site went into an endless redirect to `//`, and the error log filled with `Undefined array key "kk-KZ"` / `Attempt to read property "sef" on null` in `plugins/system/languagefilter/src/Extension/LanguageFilter.php`, line 467.
+
+- the cause is in Joomla, not in the strings: installing a site language, Joomla creates its Content Language unpublished; with the Language Filter on and Kazakh as the default, the filter does not find the prefix and redirects to `//` again and again. Reproduced on a clean Joomla 6.2.0;
+- the package now has an installer script (`script.php`): it publishes the Kazakh content language where it is safe — on a site without the Language Filter and on a site where Kazakh is already the default — and clears the language cache; on a multilingual site with another default language it only shows a warning. Checked in all three cases; in the case from the report the home page now goes to `/kk/`;
+- an update server: new versions show up in System → Update → Extensions (`updates/pkg_kk-KZ.xml`).
+
+**Русский.** Замечание владельца сайта (Joomla 6.2, PHP 8.3, MariaDB 11): после установки пакета и выбора казахского языком сайта по умолчанию сайт ушёл в бесконечную переадресацию на `//`, а журнал ошибок заполнился `Undefined array key "kk-KZ"` и `Attempt to read property "sef" on null` в `plugins/system/languagefilter/src/Extension/LanguageFilter.php`, строка 467.
+
+- причина в Joomla, а не в строках перевода: устанавливая язык сайта, Joomla создаёт его «Язык контента» неопубликованным; при включённом фильтре языков и казахском по умолчанию фильтр не находит префикс и раз за разом перенаправляет на `//`. Воспроизведено на чистой Joomla 6.2.0;
+- у пакета появился сценарий установки (`script.php`): он публикует казахский язык контента там, где это безопасно, — на сайте без фильтра языков и на сайте, где казахский уже язык по умолчанию, — и очищает кэш языков; на многоязычном сайте с другим языком по умолчанию только показывает предупреждение. Проверено во всех трёх случаях; в случае из замечания главная теперь ведёт на `/kk/`;
+- сервер обновлений: новые версии видны в «Система → Обновление → Расширения» (`updates/pkg_kk-KZ.xml`).
+
 ## 6.2.0.1 — 13 October 2026 · 13 октября 2026 года
 
 **English.** Update for Joomla 6.2.0 (released on 13 October 2026, codename Mwezi). The pack for Joomla 6.1.x stays at 6.1.4.4.

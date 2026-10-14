@@ -32,6 +32,14 @@ For Joomla 6.1.x use the release [6.1.4.4](https://github.com/bsakhanov/joomla-k
 
 To install Joomla itself in Kazakh, copy `installation/language/kk-KZ` into `installation/language/` of the Joomla distribution before starting the installer. The archive `kk-KZ_joomla_lang_root_6.2.0v1.zip` unpacks straight into the Joomla root and contains that folder.
 
+### Default language and the Language Filter
+
+When Joomla installs a site language it creates a Content Language for it — unpublished. If the "System - Language Filter" plugin is on and Kazakh becomes the default site language while that content language is unpublished, the filter cannot find its URL prefix and redirects the home page to `//` in a loop (`Undefined array key "kk-KZ"` in `LanguageFilter.php`). Since 6.2.0.2 the package publishes the Kazakh content language itself where it is safe: on a site without the Language Filter, and on a site where Kazakh is already the default. On a multilingual site with another default language it only warns: publish Kazakh in **Content → Languages** before making it the default.
+
+### Updates
+
+The package has an update server: a new version shows up in **System → Update → Extensions**. The update list is `updates/pkg_kk-KZ.xml`; the archive is attached to each release.
+
 ## What is inside
 
 | Path | What it is |
