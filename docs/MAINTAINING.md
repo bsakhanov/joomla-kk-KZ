@@ -24,6 +24,8 @@ The pack follows Joomla releases: the first three numbers of the version (6.1.4)
 
 9. Compare with the official translation and look at the interface (see [OFFICIAL.md](OFFICIAL.md)): `python3 tools/kkpack.py official ...` re-applies the adoption list and rebuilds the review tables; `node tools/sidebar_check.js --base http://127.0.0.1:8099 --user admin --password '...'` (after `npm i @sparticuz/chromium puppeteer-core`) renders the administrator sidebar in headless Chromium and reports labels that wrap or push the «+» button to the next line.
 
+**Update server.** Sites check `updates/pkg_kk-KZ.xml` (served from `main`) for new versions. After the release workflow has attached the archives, run `python3 tools/kkpack.py feed`, then commit and push the file; push it only when the archive exists, otherwise sites will try to download a missing file. Entries for other Joomla minor versions are kept.
+
 ## Русский
 
 Пакет идёт за выпусками Joomla: первые три числа версии (6.1.4) — версия Joomla, четвёртое — номер редакции перевода (6.1.4.2 — вторая редакция для Joomla 6.1.4).
@@ -37,3 +39,5 @@ The pack follows Joomla releases: the first three numbers of the version (6.1.4)
 7. `python3 tools/kkpack.py build` создаст в `dist/` два архива и `SHA256SUMS`: устанавливаемый пакет (`..._full_...`) и архив для распаковки в корень Joomla с языком установщика (`..._root_...`). Отметьте выпуск тегом с версией пакета (`6.1.5.1`) и опубликуйте его: workflow `Release assets` соберёт архивы и приложит их к релизу (для уже существующего тега запустите его вручную на вкладке Actions).
 8. Дымовая проверка на чистой Joomla (необязательно, но рекомендуется): команды те же, что выше в английской части (установка Joomla из CLI, `extension:install`, казахский язык по умолчанию в параметрах `com_languages`, `live_site` в `configuration.php`, встроенный сервер PHP), затем `python3 tools/smoke_crawl.py --base http://127.0.0.1:8099 --user admin --password '...'`. Скрипт входит в админку, открывает около 80 экранов и сообщает об ошибках PHP, «сырых» языковых ключах и ответах не 200.
 9. Сверка с официальным переводом и осмотр интерфейса (см. [OFFICIAL.md](OFFICIAL.md)): `python3 tools/kkpack.py official ...` заново применяет список заимствований и пересобирает таблицы для вычитки; `node tools/sidebar_check.js --base http://127.0.0.1:8099 --user admin --password '...'` (после `npm i @sparticuz/chromium puppeteer-core`) отрисовывает боковое меню админки в безголовом Chromium и сообщает о подписях, которые переносятся или сдвигают кнопку «+» на следующую строку.
+
+**Сервер обновлений.** Сайты проверяют `updates/pkg_kk-KZ.xml` (отдаётся из `main`) на новые версии. Когда workflow выпуска приложил архивы, выполните `python3 tools/kkpack.py feed`, затем зафиксируйте и отправьте файл; отправляйте его только после появления архива, иначе сайты попробуют скачать несуществующий файл. Записи для других минорных версий Joomla сохраняются.

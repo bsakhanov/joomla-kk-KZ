@@ -9,6 +9,7 @@
   python3 tools/kkpack.py sync   --en .cache/joomla-6.1.5 --write   # new keys come in English, obsolete keys go
   python3 tools/kkpack.py bump 6.1.5.1                      # versions in the XML manifests
   python3 tools/kkpack.py build                             # dist/*.zip + SHA256SUMS
+  python3 tools/kkpack.py feed                              # updates/pkg_kk-KZ.xml for the update server
 """
 import argparse, collections, hashlib, io, re, shutil, subprocess, sys, time, urllib.request, zipfile
 from pathlib import Path
@@ -212,6 +213,36 @@ def cmd_bump(a):
 
 def pkg_version():
     return re.search(r'<version>([^<]+)</version>', (ROOT / 'pkg_kk-KZ.xml').read_text(encoding='utf-8')).group(1)
+
+
+FEED = ROOT / 'updates' / 'pkg_kk-KZ.xml'
+FEED_HEAD = '<?xml version="1.0" encoding="utf-8"?>\n<!-- Сервер обновлений казахского языкового пакета. Новую версию добавляйте сверху; targetplatform — версия Joomla, под которую собран перевод. -->\n<updates>\n'
+
+
+def cmd_feed(a):
+    """Write updates/pkg_kk-KZ.xml for the version in pkg_kk-KZ.xml; entries for other Joomla minor versions are kept."""
+    ver = pkg_version(); joomla, rev = ver.rsplit('.', 1); minor = '.'.join(joomla.split('.')[:2]); tp = minor.replace('.', '\\.')
+    block = (
+        '    <update>\n'
+        '        <name>Kazakh (kk-KZ) Language Pack</name>\n'
+        '        <description>Қазақ тілінің пакеті — Joomla %(minor)s</description>\n'
+        '        <element>pkg_kk-KZ</element>\n'
+        '        <type>package</type>\n'
+        '        <version>%(ver)s</version>\n'
+        '        <infourl title="kk-KZ %(ver)s">https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/%(ver)s</infourl>\n'
+        '        <downloads>\n'
+        '            <downloadurl type="full" format="zip">https://github.com/bsakhanov/joomla-kk-KZ/releases/download/%(ver)s/kk-KZ_joomla_lang_full_%(joomla)sv%(rev)s.zip</downloadurl>\n'
+        '        </downloads>\n'
+        '        <tags><tag>stable</tag></tags>\n'
+        '        <maintainer>Beibit Sakhanov</maintainer>\n'
+        '        <maintainerurl>https://webmarka.kz</maintainerurl>\n'
+        '        <targetplatform name="joomla" version="%(tp)s"/>\n'
+        '    </update>\n') % dict(minor=minor, ver=ver, joomla=joomla, rev=rev, tp=tp)
+    old = FEED.read_text(encoding='utf-8') if FEED.exists() else ''
+    keep = [b for b in re.findall(r'    <update>\n.*?    </update>\n', old, flags=re.S) if 'version="%s"/>' % tp not in b]
+    FEED.parent.mkdir(exist_ok=True)
+    FEED.write_text(FEED_HEAD + block + ''.join(keep) + '</updates>\n', encoding='utf-8')
+    print('%s: %s (the archive %s must exist on the release before this file is pushed)' % (FEED.relative_to(ROOT), ver, 'kk-KZ_joomla_lang_full_%sv%s.zip' % (joomla, rev)))
 
 
 def cmd_build(a):
@@ -430,6 +461,7 @@ def main():
     p.set_defaults(fn=cmd_official)
     p = sp.add_parser('bump'); p.add_argument('version'); p.set_defaults(fn=cmd_bump)
     p = sp.add_parser('build'); p.set_defaults(fn=cmd_build)
+    p = sp.add_parser('feed', help='write updates/pkg_kk-KZ.xml for the current version'); p.set_defaults(fn=cmd_feed)
     p = sp.add_parser('fetch'); p.add_argument('version'); p.add_argument('--url'); p.set_defaults(fn=cmd_fetch)
     a = ap.parse_args()
     if a.cmd == 'sync' and not a.en:
