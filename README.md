@@ -10,7 +10,7 @@
 
 An open-source Kazakh (kk-KZ) language pack for Joomla 6 and later: administrator, site, Web Services API and the installer. The repository is laid out like the Russian pack repository [JPathRu/localisation](https://github.com/JPathRu/localisation): the repository root is the package root, one release per Joomla version, terminology lives in a [glossary](GLOSSARY.md), mistakes are reported as issues.
 
-**Page:** https://bsakhanov.github.io/joomla-kk-KZ/ · **Release:** https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/6.2.0.2
+**Page:** https://bsakhanov.github.io/joomla-kk-KZ/ · **Release:** https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/6.2.0.2 · **Official download:** https://downloads.joomla.org/language-packs/translations-joomla6/downloads/joomla6-kazakh
 
 ## Status
 
@@ -73,7 +73,7 @@ The source strings are the English files of Joomla 6.2.0 (official release; the 
 
 The official translation is not taken wholesale, for two reasons. It has technical defects: 31 strings with more printf arguments than the original (a fatal error on PHP 8), 7 corrupted values, 7 with Russian text, 26 labels replaced by long sentences, 61 with the legacy `_QQ_` escape that Joomla 6 shows literally. And it has wrong wording in very visible places (Media is «Сурет», Global Check-in is «Жалпы Тіркеу», Overrides is «Өткізуден бас тарту»). Its terminology («мәзір», «санат», «үлгі», «бүркеншік ат») also differs from this pack's decisions («меню», «категория», «шаблон», «алиас»). Details, examples and the list of defects: [docs/OFFICIAL.md](docs/OFFICIAL.md); a table of 5,425 short labels for a native-speaker review: [docs/review/official-diff.tsv](docs/review/official-diff.tsv).
 
-An accredited Kazakh pack also exists for Joomla 3.9 to 5.0 ([downloads.joomla.org](https://downloads.joomla.org)), and Joomla 6 ships a partial Kazakh installer translation. This repository is an independent pack for Joomla 6 and does not claim to be the accredited one. Both use the package id `pkg_kk-KZ`, so this pack installs over an existing one as an upgrade.
+An accredited Kazakh pack was also published for Joomla 3.9 to 5.0 (translator Akylkerey Sarvarov; [downloads.joomla.org](https://downloads.joomla.org)). For Joomla 6 the official language-pack repository publishes this pack: [Joomla! 6 — Kazakh](https://downloads.joomla.org/language-packs/translations-joomla6/downloads/joomla6-kazakh), from version 6.2.0.1; the archive of 6.2.0.2 there is the same file as the one attached to the GitHub release (the MD5 and SHA1 sums match). This repository is where the pack is developed. Both packs use the package id `pkg_kk-KZ`, so this pack installs over an older one as an upgrade. Joomla 6 itself ships a partial Kazakh installer translation; the installer files of this pack replace it when unpacked over the distribution.
 
 ## Terminology
 

@@ -26,6 +26,8 @@ The pack follows Joomla releases: the first three numbers of the version (6.1.4)
 
 **Update server.** Sites check `updates/pkg_kk-KZ.xml` (served from `main`) for new versions. After the release workflow has attached the archives, run `python3 tools/kkpack.py feed`, then commit and push the file; push it only when the archive exists, otherwise sites will try to download a missing file. Entries for other Joomla minor versions are kept.
 
+**Joomla downloads site.** The same `kk-KZ_joomla_lang_full_<version>.zip` is published on [downloads.joomla.org](https://downloads.joomla.org/language-packs/translations-joomla6/downloads/joomla6-kazakh) as well, and every new version has to be added there too. After adding it, compare the MD5 and SHA1 shown on the file page with `md5sum` and `sha1sum` of the archive attached to the GitHub release: it must be the same file.
+
 ## Русский
 
 Пакет идёт за выпусками Joomla: первые три числа версии (6.1.4) — версия Joomla, четвёртое — номер редакции перевода (6.1.4.2 — вторая редакция для Joomla 6.1.4).
@@ -41,3 +43,5 @@ The pack follows Joomla releases: the first three numbers of the version (6.1.4)
 9. Сверка с официальным переводом и осмотр интерфейса (см. [OFFICIAL.md](OFFICIAL.md)): `python3 tools/kkpack.py official ...` заново применяет список заимствований и пересобирает таблицы для вычитки; `node tools/sidebar_check.js --base http://127.0.0.1:8099 --user admin --password '...'` (после `npm i @sparticuz/chromium puppeteer-core`) отрисовывает боковое меню админки в безголовом Chromium и сообщает о подписях, которые переносятся или сдвигают кнопку «+» на следующую строку.
 
 **Сервер обновлений.** Сайты проверяют `updates/pkg_kk-KZ.xml` (отдаётся из `main`) на новые версии. Когда workflow выпуска приложил архивы, выполните `python3 tools/kkpack.py feed`, затем зафиксируйте и отправьте файл; отправляйте его только после появления архива, иначе сайты попробуют скачать несуществующий файл. Записи для других минорных версий Joomla сохраняются.
+
+**Каталог загрузок Joomla.** Тот же `kk-KZ_joomla_lang_full_<версия>.zip` публикуется и на [downloads.joomla.org](https://downloads.joomla.org/language-packs/translations-joomla6/downloads/joomla6-kazakh), и каждую новую версию нужно добавлять туда тоже. После добавления сравните MD5 и SHA1 на странице файла с `md5sum` и `sha1sum` архива, приложенного к релизу на GitHub: файл должен быть тем же.
