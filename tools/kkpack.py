@@ -228,6 +228,7 @@ def cmd_feed(a):
         '        <description>Қазақ тілінің пакеті — Joomla %(minor)s</description>\n'
         '        <element>pkg_kk-KZ</element>\n'
         '        <type>package</type>\n'
+        '        <client>0</client>\n'
         '        <version>%(ver)s</version>\n'
         '        <infourl title="kk-KZ %(ver)s">https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/%(ver)s</infourl>\n'
         '        <downloads>\n'

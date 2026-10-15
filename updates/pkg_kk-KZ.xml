@@ -6,6 +6,7 @@
         <description>Қазақ тілінің пакеті — Joomla 6.2</description>
         <element>pkg_kk-KZ</element>
         <type>package</type>
+        <client>0</client>
         <version>6.2.0.2</version>
         <infourl title="kk-KZ 6.2.0.2">https://github.com/bsakhanov/joomla-kk-KZ/releases/tag/6.2.0.2</infourl>
         <downloads>
